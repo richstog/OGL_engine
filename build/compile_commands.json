@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/richstog/Documents/projects/r_engine/build/r_engine_core",
+  "command": "/usr/bin/g++  -I/home/richstog/Documents/projects/r_engine/r_engine_core/includes -g -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o -c /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Application.cpp",
+  "file": "/home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Application.cpp",
+  "output": "r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o"
+},
+{
+  "directory": "/home/richstog/Documents/projects/r_engine/build/r_engine_editor",
+  "command": "/usr/bin/g++  -I/home/richstog/Documents/projects/r_engine/r_engine_core/includes -g -o CMakeFiles/r_engine_editor.dir/src/main.cpp.o -c /home/richstog/Documents/projects/r_engine/r_engine_editor/src/main.cpp",
+  "file": "/home/richstog/Documents/projects/r_engine/r_engine_editor/src/main.cpp",
+  "output": "r_engine_editor/CMakeFiles/r_engine_editor.dir/src/main.cpp.o"
+}
+]

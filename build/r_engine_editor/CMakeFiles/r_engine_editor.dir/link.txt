@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/r_engine_editor.dir/src/main.cpp.o -o ../bin/r_engine_editor  ../r_engine_core/libr_engine_core.a -lglfw 
