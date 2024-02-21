@@ -1,51 +1,59 @@
 #include "r_engine_core/Application.hpp"
-#include <GL/gl.h>
+#include "r_engine_core/Window.hpp"
 
-namespace r_engine {
+namespace r_engine
+{
 
-    Application::Application() {
+    Application::Application()
+    {
+        LOG_INFO("Starting Application");
     }
 
-    Application::~Application() {
-
+    Application::~Application()
+    {
+        LOG_INFO("Closing Application");
     }
 
-    int Application::start(unsigned int window_width, unsigned int window_height, const char* title) {
-        GLFWwindow* window;
+    int Application::start(unsigned int window_width, unsigned int window_height, const char* title)
+    {
 
-        /* Initialize the library */
-        if (!glfwInit())
-            return -1;
+        m_pWindow = std::make_unique<Window>(title, window_width, window_height);
+        m_event_dispatcher.add_event_listener<EventMouseMoved>(
+            [](EventMouseMoved& event)
+            {
+                LOG_INFO("[MouseMoved] Mouse moved to x {0}; y {1}", event.x, event.y);
+            }
+        );
 
-        /* Create a windowed mode window and its OpenGL context */
-        window = glfwCreateWindow(window_width, window_height, title, NULL, NULL);
-        if (!window)
+        m_event_dispatcher.add_event_listener<EventWindowResize>(
+            [](EventWindowResize& event)
+            {
+                LOG_INFO("[WindowResize] Window resized to {0}x{1}", event.width, event.height);
+            }
+        );
+
+        m_event_dispatcher.add_event_listener<EventWindowClose>(
+            [&](EventWindowClose& event)
+            {
+                LOG_INFO("[WindowClose]");
+                m_bCloseWindow = true;
+            }
+        );
+
+        m_pWindow->set_event_callback(
+            [&](BaseEvent& event)
+            {
+                m_event_dispatcher.dispatch(event);
+            }
+        );
+
+        while (!m_bCloseWindow)
         {
-            glfwTerminate();
-            return -1;
-        }
-
-        /* Make the window's context current */
-        glfwMakeContextCurrent(window);
-
-        glClearColor(1, 0, 0, 0);
-
-        /* Loop until the user closes the window */
-        while (!glfwWindowShouldClose(window))
-        {
-            /* Render here */
-            glClear(GL_COLOR_BUFFER_BIT);
-
-            /* Swap front and back buffers */
-            glfwSwapBuffers(window);
-
-            /* Poll for and process events */
-            glfwPollEvents();
-
+            m_pWindow->on_update();
             on_update();
         }
+        m_pWindow = nullptr;
 
-        glfwTerminate();
         return 0;
     }
 }

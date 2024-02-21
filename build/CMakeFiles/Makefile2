@@ -82,15 +82,34 @@ clean: r_engine_editor/clean
 
 # Recursive "all" directory target.
 r_engine_core/all: r_engine_core/CMakeFiles/r_engine_core.dir/all
+r_engine_core/all: r_engine_core/CMakeFiles/ImGUI.dir/all
+r_engine_core/all: r_engine_core/spdlog/all
 .PHONY : r_engine_core/all
 
 # Recursive "preinstall" directory target.
-r_engine_core/preinstall:
+r_engine_core/preinstall: r_engine_core/spdlog/preinstall
 .PHONY : r_engine_core/preinstall
 
 # Recursive "clean" directory target.
 r_engine_core/clean: r_engine_core/CMakeFiles/r_engine_core.dir/clean
+r_engine_core/clean: r_engine_core/CMakeFiles/ImGUI.dir/clean
+r_engine_core/clean: r_engine_core/spdlog/clean
 .PHONY : r_engine_core/clean
+
+#=============================================================================
+# Directory level rules for directory r_engine_core/spdlog
+
+# Recursive "all" directory target.
+r_engine_core/spdlog/all: r_engine_core/spdlog/CMakeFiles/spdlog.dir/all
+.PHONY : r_engine_core/spdlog/all
+
+# Recursive "preinstall" directory target.
+r_engine_core/spdlog/preinstall:
+.PHONY : r_engine_core/spdlog/preinstall
+
+# Recursive "clean" directory target.
+r_engine_core/spdlog/clean: r_engine_core/spdlog/CMakeFiles/spdlog.dir/clean
+.PHONY : r_engine_core/spdlog/clean
 
 #=============================================================================
 # Directory level rules for directory r_engine_editor
@@ -111,15 +130,16 @@ r_engine_editor/clean: r_engine_editor/CMakeFiles/r_engine_editor.dir/clean
 # Target rules for target r_engine_core/CMakeFiles/r_engine_core.dir
 
 # All Build rule for target.
-r_engine_core/CMakeFiles/r_engine_core.dir/all:
+r_engine_core/CMakeFiles/r_engine_core.dir/all: r_engine_core/CMakeFiles/ImGUI.dir/all
+r_engine_core/CMakeFiles/r_engine_core.dir/all: r_engine_core/spdlog/CMakeFiles/spdlog.dir/all
 	$(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/depend
 	$(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/richstog/Documents/projects/r_engine/build/CMakeFiles --progress-num=1,2 "Built target r_engine_core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/richstog/Documents/projects/r_engine/build/CMakeFiles --progress-num=9,10,11 "Built target r_engine_core"
 .PHONY : r_engine_core/CMakeFiles/r_engine_core.dir/all
 
 # Build rule for subdir invocation for target.
 r_engine_core/CMakeFiles/r_engine_core.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/richstog/Documents/projects/r_engine/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/richstog/Documents/projects/r_engine/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r_engine_core/CMakeFiles/r_engine_core.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/richstog/Documents/projects/r_engine/build/CMakeFiles 0
 .PHONY : r_engine_core/CMakeFiles/r_engine_core.dir/rule
@@ -134,18 +154,72 @@ r_engine_core/CMakeFiles/r_engine_core.dir/clean:
 .PHONY : r_engine_core/CMakeFiles/r_engine_core.dir/clean
 
 #=============================================================================
+# Target rules for target r_engine_core/CMakeFiles/ImGUI.dir
+
+# All Build rule for target.
+r_engine_core/CMakeFiles/ImGUI.dir/all:
+	$(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/depend
+	$(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/richstog/Documents/projects/r_engine/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target ImGUI"
+.PHONY : r_engine_core/CMakeFiles/ImGUI.dir/all
+
+# Build rule for subdir invocation for target.
+r_engine_core/CMakeFiles/ImGUI.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/richstog/Documents/projects/r_engine/build/CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r_engine_core/CMakeFiles/ImGUI.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/richstog/Documents/projects/r_engine/build/CMakeFiles 0
+.PHONY : r_engine_core/CMakeFiles/ImGUI.dir/rule
+
+# Convenience name for target.
+ImGUI: r_engine_core/CMakeFiles/ImGUI.dir/rule
+.PHONY : ImGUI
+
+# clean rule for target.
+r_engine_core/CMakeFiles/ImGUI.dir/clean:
+	$(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/clean
+.PHONY : r_engine_core/CMakeFiles/ImGUI.dir/clean
+
+#=============================================================================
+# Target rules for target r_engine_core/spdlog/CMakeFiles/spdlog.dir
+
+# All Build rule for target.
+r_engine_core/spdlog/CMakeFiles/spdlog.dir/all:
+	$(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/depend
+	$(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/richstog/Documents/projects/r_engine/build/CMakeFiles --progress-num=14,15,16,17,18,19,20,21 "Built target spdlog"
+.PHONY : r_engine_core/spdlog/CMakeFiles/spdlog.dir/all
+
+# Build rule for subdir invocation for target.
+r_engine_core/spdlog/CMakeFiles/spdlog.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/richstog/Documents/projects/r_engine/build/CMakeFiles 8
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r_engine_core/spdlog/CMakeFiles/spdlog.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/richstog/Documents/projects/r_engine/build/CMakeFiles 0
+.PHONY : r_engine_core/spdlog/CMakeFiles/spdlog.dir/rule
+
+# Convenience name for target.
+spdlog: r_engine_core/spdlog/CMakeFiles/spdlog.dir/rule
+.PHONY : spdlog
+
+# clean rule for target.
+r_engine_core/spdlog/CMakeFiles/spdlog.dir/clean:
+	$(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/clean
+.PHONY : r_engine_core/spdlog/CMakeFiles/spdlog.dir/clean
+
+#=============================================================================
 # Target rules for target r_engine_editor/CMakeFiles/r_engine_editor.dir
 
 # All Build rule for target.
 r_engine_editor/CMakeFiles/r_engine_editor.dir/all: r_engine_core/CMakeFiles/r_engine_core.dir/all
+r_engine_editor/CMakeFiles/r_engine_editor.dir/all: r_engine_core/CMakeFiles/ImGUI.dir/all
+r_engine_editor/CMakeFiles/r_engine_editor.dir/all: r_engine_core/spdlog/CMakeFiles/spdlog.dir/all
 	$(MAKE) $(MAKESILENT) -f r_engine_editor/CMakeFiles/r_engine_editor.dir/build.make r_engine_editor/CMakeFiles/r_engine_editor.dir/depend
 	$(MAKE) $(MAKESILENT) -f r_engine_editor/CMakeFiles/r_engine_editor.dir/build.make r_engine_editor/CMakeFiles/r_engine_editor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/richstog/Documents/projects/r_engine/build/CMakeFiles --progress-num=3,4 "Built target r_engine_editor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/richstog/Documents/projects/r_engine/build/CMakeFiles --progress-num=12,13 "Built target r_engine_editor"
 .PHONY : r_engine_editor/CMakeFiles/r_engine_editor.dir/all
 
 # Build rule for subdir invocation for target.
 r_engine_editor/CMakeFiles/r_engine_editor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/richstog/Documents/projects/r_engine/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/richstog/Documents/projects/r_engine/build/CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r_engine_editor/CMakeFiles/r_engine_editor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/richstog/Documents/projects/r_engine/build/CMakeFiles 0
 .PHONY : r_engine_editor/CMakeFiles/r_engine_editor.dir/rule

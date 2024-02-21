@@ -1,9 +1,99 @@
 [
 {
   "directory": "/home/richstog/Documents/projects/r_engine/build/r_engine_core",
-  "command": "/usr/bin/g++  -I/home/richstog/Documents/projects/r_engine/r_engine_core/includes -g -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o -c /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Application.cpp",
+  "command": "/usr/bin/g++  -I/home/richstog/Documents/projects/r_engine/r_engine_core/../external -I/home/richstog/Documents/projects/r_engine/r_engine_core/../external/imgui -g -o CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.o -c /home/richstog/Documents/projects/r_engine/external/imgui/imgui.cpp",
+  "file": "/home/richstog/Documents/projects/r_engine/external/imgui/imgui.cpp",
+  "output": "r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.o"
+},
+{
+  "directory": "/home/richstog/Documents/projects/r_engine/build/r_engine_core",
+  "command": "/usr/bin/g++  -I/home/richstog/Documents/projects/r_engine/r_engine_core/../external -I/home/richstog/Documents/projects/r_engine/r_engine_core/../external/imgui -g -o CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.o -c /home/richstog/Documents/projects/r_engine/external/imgui/backends/imgui_impl_glfw.cpp",
+  "file": "/home/richstog/Documents/projects/r_engine/external/imgui/backends/imgui_impl_glfw.cpp",
+  "output": "r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.o"
+},
+{
+  "directory": "/home/richstog/Documents/projects/r_engine/build/r_engine_core",
+  "command": "/usr/bin/g++  -I/home/richstog/Documents/projects/r_engine/r_engine_core/../external -I/home/richstog/Documents/projects/r_engine/r_engine_core/../external/imgui -g -o CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.o -c /home/richstog/Documents/projects/r_engine/external/imgui/backends/imgui_impl_opengl3.cpp",
+  "file": "/home/richstog/Documents/projects/r_engine/external/imgui/backends/imgui_impl_opengl3.cpp",
+  "output": "r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.o"
+},
+{
+  "directory": "/home/richstog/Documents/projects/r_engine/build/r_engine_core",
+  "command": "/usr/bin/g++  -I/home/richstog/Documents/projects/r_engine/r_engine_core/../external -I/home/richstog/Documents/projects/r_engine/r_engine_core/../external/imgui -g -o CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.o -c /home/richstog/Documents/projects/r_engine/external/imgui/imgui_demo.cpp",
+  "file": "/home/richstog/Documents/projects/r_engine/external/imgui/imgui_demo.cpp",
+  "output": "r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.o"
+},
+{
+  "directory": "/home/richstog/Documents/projects/r_engine/build/r_engine_core",
+  "command": "/usr/bin/g++  -I/home/richstog/Documents/projects/r_engine/r_engine_core/../external -I/home/richstog/Documents/projects/r_engine/r_engine_core/../external/imgui -g -o CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.o -c /home/richstog/Documents/projects/r_engine/external/imgui/imgui_draw.cpp",
+  "file": "/home/richstog/Documents/projects/r_engine/external/imgui/imgui_draw.cpp",
+  "output": "r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/home/richstog/Documents/projects/r_engine/build/r_engine_core",
+  "command": "/usr/bin/g++  -I/home/richstog/Documents/projects/r_engine/r_engine_core/../external -I/home/richstog/Documents/projects/r_engine/r_engine_core/../external/imgui -g -o CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.o -c /home/richstog/Documents/projects/r_engine/external/imgui/imgui_tables.cpp",
+  "file": "/home/richstog/Documents/projects/r_engine/external/imgui/imgui_tables.cpp",
+  "output": "r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.o"
+},
+{
+  "directory": "/home/richstog/Documents/projects/r_engine/build/r_engine_core",
+  "command": "/usr/bin/g++  -I/home/richstog/Documents/projects/r_engine/r_engine_core/../external -I/home/richstog/Documents/projects/r_engine/r_engine_core/../external/imgui -g -o CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.o -c /home/richstog/Documents/projects/r_engine/external/imgui/imgui_widgets.cpp",
+  "file": "/home/richstog/Documents/projects/r_engine/external/imgui/imgui_widgets.cpp",
+  "output": "r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/home/richstog/Documents/projects/r_engine/build/r_engine_core",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/richstog/Documents/projects/r_engine/r_engine_core/includes -I/home/richstog/Documents/projects/r_engine/r_engine_core/src -I/home/richstog/Documents/projects/r_engine/external/spdlog/include -I/home/richstog/Documents/projects/r_engine/r_engine_core/../external -I/home/richstog/Documents/projects/r_engine/r_engine_core/../external/imgui -g -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o -c /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Application.cpp",
   "file": "/home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Application.cpp",
   "output": "r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o"
+},
+{
+  "directory": "/home/richstog/Documents/projects/r_engine/build/r_engine_core",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/richstog/Documents/projects/r_engine/r_engine_core/includes -I/home/richstog/Documents/projects/r_engine/r_engine_core/src -I/home/richstog/Documents/projects/r_engine/external/spdlog/include -I/home/richstog/Documents/projects/r_engine/r_engine_core/../external -I/home/richstog/Documents/projects/r_engine/r_engine_core/../external/imgui -g -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o -c /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Window.cpp",
+  "file": "/home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Window.cpp",
+  "output": "r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o"
+},
+{
+  "directory": "/home/richstog/Documents/projects/r_engine/build/r_engine_core/spdlog",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/richstog/Documents/projects/r_engine/external/spdlog/include -g -std=c++11 -o CMakeFiles/spdlog.dir/src/spdlog.cpp.o -c /home/richstog/Documents/projects/r_engine/external/spdlog/src/spdlog.cpp",
+  "file": "/home/richstog/Documents/projects/r_engine/external/spdlog/src/spdlog.cpp",
+  "output": "r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.o"
+},
+{
+  "directory": "/home/richstog/Documents/projects/r_engine/build/r_engine_core/spdlog",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/richstog/Documents/projects/r_engine/external/spdlog/include -g -std=c++11 -o CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o -c /home/richstog/Documents/projects/r_engine/external/spdlog/src/stdout_sinks.cpp",
+  "file": "/home/richstog/Documents/projects/r_engine/external/spdlog/src/stdout_sinks.cpp",
+  "output": "r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o"
+},
+{
+  "directory": "/home/richstog/Documents/projects/r_engine/build/r_engine_core/spdlog",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/richstog/Documents/projects/r_engine/external/spdlog/include -g -std=c++11 -o CMakeFiles/spdlog.dir/src/color_sinks.cpp.o -c /home/richstog/Documents/projects/r_engine/external/spdlog/src/color_sinks.cpp",
+  "file": "/home/richstog/Documents/projects/r_engine/external/spdlog/src/color_sinks.cpp",
+  "output": "r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o"
+},
+{
+  "directory": "/home/richstog/Documents/projects/r_engine/build/r_engine_core/spdlog",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/richstog/Documents/projects/r_engine/external/spdlog/include -g -std=c++11 -o CMakeFiles/spdlog.dir/src/file_sinks.cpp.o -c /home/richstog/Documents/projects/r_engine/external/spdlog/src/file_sinks.cpp",
+  "file": "/home/richstog/Documents/projects/r_engine/external/spdlog/src/file_sinks.cpp",
+  "output": "r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o"
+},
+{
+  "directory": "/home/richstog/Documents/projects/r_engine/build/r_engine_core/spdlog",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/richstog/Documents/projects/r_engine/external/spdlog/include -g -std=c++11 -o CMakeFiles/spdlog.dir/src/async.cpp.o -c /home/richstog/Documents/projects/r_engine/external/spdlog/src/async.cpp",
+  "file": "/home/richstog/Documents/projects/r_engine/external/spdlog/src/async.cpp",
+  "output": "r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.o"
+},
+{
+  "directory": "/home/richstog/Documents/projects/r_engine/build/r_engine_core/spdlog",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/richstog/Documents/projects/r_engine/external/spdlog/include -g -std=c++11 -o CMakeFiles/spdlog.dir/src/cfg.cpp.o -c /home/richstog/Documents/projects/r_engine/external/spdlog/src/cfg.cpp",
+  "file": "/home/richstog/Documents/projects/r_engine/external/spdlog/src/cfg.cpp",
+  "output": "r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.o"
+},
+{
+  "directory": "/home/richstog/Documents/projects/r_engine/build/r_engine_core/spdlog",
+  "command": "/usr/bin/g++ -DSPDLOG_COMPILED_LIB -I/home/richstog/Documents/projects/r_engine/external/spdlog/include -g -std=c++11 -o CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o -c /home/richstog/Documents/projects/r_engine/external/spdlog/src/bundled_fmtlib_format.cpp",
+  "file": "/home/richstog/Documents/projects/r_engine/external/spdlog/src/bundled_fmtlib_format.cpp",
+  "output": "r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o"
 },
 {
   "directory": "/home/richstog/Documents/projects/r_engine/build/r_engine_editor",

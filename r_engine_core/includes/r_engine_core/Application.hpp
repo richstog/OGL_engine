@@ -1,11 +1,15 @@
 #pragma once
 
-#include <iostream>
-#include <GLFW/glfw3.h>
+#include <memory>
 
-namespace r_engine {
+#include "r_engine_core/Log.hpp"
+#include "r_engine_core/Event.hpp"
 
-    class Application {
+namespace r_engine
+{
+
+    class Application
+    {
         public:
         Application();
         virtual ~Application();
@@ -18,5 +22,11 @@ namespace r_engine {
 
         virtual int start(unsigned int window_width, unsigned int window_height, const char* title);
         virtual void on_update() {}
+
+        private:
+            std::unique_ptr<class Window> m_pWindow;
+
+            EventDispatcher m_event_dispatcher;
+            bool m_bCloseWindow = false;
     };
 }

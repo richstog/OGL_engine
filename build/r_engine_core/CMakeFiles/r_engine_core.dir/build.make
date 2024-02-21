@@ -83,17 +83,33 @@ r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.s: 
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.s"
 	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Application.cpp -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.s
 
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o: r_engine_core/CMakeFiles/r_engine_core.dir/flags.make
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o: /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Window.cpp
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o: r_engine_core/CMakeFiles/r_engine_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o"
+	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o -MF CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o.d -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o -c /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Window.cpp
+
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.i"
+	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Window.cpp > CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.i
+
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.s"
+	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Window.cpp -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.s
+
 # Object files for target r_engine_core
 r_engine_core_OBJECTS = \
-"CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o"
+"CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o" \
+"CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o"
 
 # External object files for target r_engine_core
 r_engine_core_EXTERNAL_OBJECTS =
 
 r_engine_core/libr_engine_core.a: r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o
+r_engine_core/libr_engine_core.a: r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o
 r_engine_core/libr_engine_core.a: r_engine_core/CMakeFiles/r_engine_core.dir/build.make
 r_engine_core/libr_engine_core.a: r_engine_core/CMakeFiles/r_engine_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/richstog/Documents/projects/r_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libr_engine_core.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/richstog/Documents/projects/r_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libr_engine_core.a"
 	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && $(CMAKE_COMMAND) -P CMakeFiles/r_engine_core.dir/cmake_clean_target.cmake
 	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/r_engine_core.dir/link.txt --verbose=$(VERBOSE)
 

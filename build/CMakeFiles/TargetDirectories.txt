@@ -1,8 +1,12 @@
 /home/richstog/Documents/projects/r_engine/build/CMakeFiles/edit_cache.dir
 /home/richstog/Documents/projects/r_engine/build/CMakeFiles/rebuild_cache.dir
 /home/richstog/Documents/projects/r_engine/build/r_engine_core/CMakeFiles/r_engine_core.dir
+/home/richstog/Documents/projects/r_engine/build/r_engine_core/CMakeFiles/ImGUI.dir
 /home/richstog/Documents/projects/r_engine/build/r_engine_core/CMakeFiles/edit_cache.dir
 /home/richstog/Documents/projects/r_engine/build/r_engine_core/CMakeFiles/rebuild_cache.dir
+/home/richstog/Documents/projects/r_engine/build/r_engine_core/spdlog/CMakeFiles/spdlog.dir
+/home/richstog/Documents/projects/r_engine/build/r_engine_core/spdlog/CMakeFiles/edit_cache.dir
+/home/richstog/Documents/projects/r_engine/build/r_engine_core/spdlog/CMakeFiles/rebuild_cache.dir
 /home/richstog/Documents/projects/r_engine/build/r_engine_editor/CMakeFiles/r_engine_editor.dir
 /home/richstog/Documents/projects/r_engine/build/r_engine_editor/CMakeFiles/edit_cache.dir
 /home/richstog/Documents/projects/r_engine/build/r_engine_editor/CMakeFiles/rebuild_cache.dir

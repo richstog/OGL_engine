@@ -2,6 +2,7 @@
 #include <memory>
 
 #include <r_engine_core/Application.hpp>
+#include <r_engine_core/Log.hpp>
 
 
 class MyApp : public r_engine::Application {

@@ -130,6 +130,188 @@ r_engine_core/fast:
 	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/build
 .PHONY : r_engine_core/fast
 
+# Convenience name for target.
+r_engine_core/CMakeFiles/ImGUI.dir/rule:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r_engine_core/CMakeFiles/ImGUI.dir/rule
+.PHONY : r_engine_core/CMakeFiles/ImGUI.dir/rule
+
+# Convenience name for target.
+ImGUI: r_engine_core/CMakeFiles/ImGUI.dir/rule
+.PHONY : ImGUI
+
+# fast build rule for target.
+ImGUI/fast:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/build
+.PHONY : ImGUI/fast
+
+__/external/imgui/backends/imgui_impl_glfw.o: __/external/imgui/backends/imgui_impl_glfw.cpp.o
+.PHONY : __/external/imgui/backends/imgui_impl_glfw.o
+
+# target to build an object file
+__/external/imgui/backends/imgui_impl_glfw.cpp.o:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.o
+.PHONY : __/external/imgui/backends/imgui_impl_glfw.cpp.o
+
+__/external/imgui/backends/imgui_impl_glfw.i: __/external/imgui/backends/imgui_impl_glfw.cpp.i
+.PHONY : __/external/imgui/backends/imgui_impl_glfw.i
+
+# target to preprocess a source file
+__/external/imgui/backends/imgui_impl_glfw.cpp.i:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.i
+.PHONY : __/external/imgui/backends/imgui_impl_glfw.cpp.i
+
+__/external/imgui/backends/imgui_impl_glfw.s: __/external/imgui/backends/imgui_impl_glfw.cpp.s
+.PHONY : __/external/imgui/backends/imgui_impl_glfw.s
+
+# target to generate assembly for a file
+__/external/imgui/backends/imgui_impl_glfw.cpp.s:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.s
+.PHONY : __/external/imgui/backends/imgui_impl_glfw.cpp.s
+
+__/external/imgui/backends/imgui_impl_opengl3.o: __/external/imgui/backends/imgui_impl_opengl3.cpp.o
+.PHONY : __/external/imgui/backends/imgui_impl_opengl3.o
+
+# target to build an object file
+__/external/imgui/backends/imgui_impl_opengl3.cpp.o:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.o
+.PHONY : __/external/imgui/backends/imgui_impl_opengl3.cpp.o
+
+__/external/imgui/backends/imgui_impl_opengl3.i: __/external/imgui/backends/imgui_impl_opengl3.cpp.i
+.PHONY : __/external/imgui/backends/imgui_impl_opengl3.i
+
+# target to preprocess a source file
+__/external/imgui/backends/imgui_impl_opengl3.cpp.i:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.i
+.PHONY : __/external/imgui/backends/imgui_impl_opengl3.cpp.i
+
+__/external/imgui/backends/imgui_impl_opengl3.s: __/external/imgui/backends/imgui_impl_opengl3.cpp.s
+.PHONY : __/external/imgui/backends/imgui_impl_opengl3.s
+
+# target to generate assembly for a file
+__/external/imgui/backends/imgui_impl_opengl3.cpp.s:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.s
+.PHONY : __/external/imgui/backends/imgui_impl_opengl3.cpp.s
+
+__/external/imgui/imgui.o: __/external/imgui/imgui.cpp.o
+.PHONY : __/external/imgui/imgui.o
+
+# target to build an object file
+__/external/imgui/imgui.cpp.o:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.o
+.PHONY : __/external/imgui/imgui.cpp.o
+
+__/external/imgui/imgui.i: __/external/imgui/imgui.cpp.i
+.PHONY : __/external/imgui/imgui.i
+
+# target to preprocess a source file
+__/external/imgui/imgui.cpp.i:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.i
+.PHONY : __/external/imgui/imgui.cpp.i
+
+__/external/imgui/imgui.s: __/external/imgui/imgui.cpp.s
+.PHONY : __/external/imgui/imgui.s
+
+# target to generate assembly for a file
+__/external/imgui/imgui.cpp.s:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.s
+.PHONY : __/external/imgui/imgui.cpp.s
+
+__/external/imgui/imgui_demo.o: __/external/imgui/imgui_demo.cpp.o
+.PHONY : __/external/imgui/imgui_demo.o
+
+# target to build an object file
+__/external/imgui/imgui_demo.cpp.o:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.o
+.PHONY : __/external/imgui/imgui_demo.cpp.o
+
+__/external/imgui/imgui_demo.i: __/external/imgui/imgui_demo.cpp.i
+.PHONY : __/external/imgui/imgui_demo.i
+
+# target to preprocess a source file
+__/external/imgui/imgui_demo.cpp.i:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.i
+.PHONY : __/external/imgui/imgui_demo.cpp.i
+
+__/external/imgui/imgui_demo.s: __/external/imgui/imgui_demo.cpp.s
+.PHONY : __/external/imgui/imgui_demo.s
+
+# target to generate assembly for a file
+__/external/imgui/imgui_demo.cpp.s:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.s
+.PHONY : __/external/imgui/imgui_demo.cpp.s
+
+__/external/imgui/imgui_draw.o: __/external/imgui/imgui_draw.cpp.o
+.PHONY : __/external/imgui/imgui_draw.o
+
+# target to build an object file
+__/external/imgui/imgui_draw.cpp.o:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.o
+.PHONY : __/external/imgui/imgui_draw.cpp.o
+
+__/external/imgui/imgui_draw.i: __/external/imgui/imgui_draw.cpp.i
+.PHONY : __/external/imgui/imgui_draw.i
+
+# target to preprocess a source file
+__/external/imgui/imgui_draw.cpp.i:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.i
+.PHONY : __/external/imgui/imgui_draw.cpp.i
+
+__/external/imgui/imgui_draw.s: __/external/imgui/imgui_draw.cpp.s
+.PHONY : __/external/imgui/imgui_draw.s
+
+# target to generate assembly for a file
+__/external/imgui/imgui_draw.cpp.s:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.s
+.PHONY : __/external/imgui/imgui_draw.cpp.s
+
+__/external/imgui/imgui_tables.o: __/external/imgui/imgui_tables.cpp.o
+.PHONY : __/external/imgui/imgui_tables.o
+
+# target to build an object file
+__/external/imgui/imgui_tables.cpp.o:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.o
+.PHONY : __/external/imgui/imgui_tables.cpp.o
+
+__/external/imgui/imgui_tables.i: __/external/imgui/imgui_tables.cpp.i
+.PHONY : __/external/imgui/imgui_tables.i
+
+# target to preprocess a source file
+__/external/imgui/imgui_tables.cpp.i:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.i
+.PHONY : __/external/imgui/imgui_tables.cpp.i
+
+__/external/imgui/imgui_tables.s: __/external/imgui/imgui_tables.cpp.s
+.PHONY : __/external/imgui/imgui_tables.s
+
+# target to generate assembly for a file
+__/external/imgui/imgui_tables.cpp.s:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.s
+.PHONY : __/external/imgui/imgui_tables.cpp.s
+
+__/external/imgui/imgui_widgets.o: __/external/imgui/imgui_widgets.cpp.o
+.PHONY : __/external/imgui/imgui_widgets.o
+
+# target to build an object file
+__/external/imgui/imgui_widgets.cpp.o:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.o
+.PHONY : __/external/imgui/imgui_widgets.cpp.o
+
+__/external/imgui/imgui_widgets.i: __/external/imgui/imgui_widgets.cpp.i
+.PHONY : __/external/imgui/imgui_widgets.i
+
+# target to preprocess a source file
+__/external/imgui/imgui_widgets.cpp.i:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.i
+.PHONY : __/external/imgui/imgui_widgets.cpp.i
+
+__/external/imgui/imgui_widgets.s: __/external/imgui/imgui_widgets.cpp.s
+.PHONY : __/external/imgui/imgui_widgets.s
+
+# target to generate assembly for a file
+__/external/imgui/imgui_widgets.cpp.s:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.s
+.PHONY : __/external/imgui/imgui_widgets.cpp.s
+
 src/r_engine_core/Application.o: src/r_engine_core/Application.cpp.o
 .PHONY : src/r_engine_core/Application.o
 
@@ -154,6 +336,30 @@ src/r_engine_core/Application.cpp.s:
 	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.s
 .PHONY : src/r_engine_core/Application.cpp.s
 
+src/r_engine_core/Window.o: src/r_engine_core/Window.cpp.o
+.PHONY : src/r_engine_core/Window.o
+
+# target to build an object file
+src/r_engine_core/Window.cpp.o:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o
+.PHONY : src/r_engine_core/Window.cpp.o
+
+src/r_engine_core/Window.i: src/r_engine_core/Window.cpp.i
+.PHONY : src/r_engine_core/Window.i
+
+# target to preprocess a source file
+src/r_engine_core/Window.cpp.i:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.i
+.PHONY : src/r_engine_core/Window.cpp.i
+
+src/r_engine_core/Window.s: src/r_engine_core/Window.cpp.s
+.PHONY : src/r_engine_core/Window.s
+
+# target to generate assembly for a file
+src/r_engine_core/Window.cpp.s:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.s
+.PHONY : src/r_engine_core/Window.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,10 +368,35 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... ImGUI"
 	@echo "... r_engine_core"
+	@echo "... __/external/imgui/backends/imgui_impl_glfw.o"
+	@echo "... __/external/imgui/backends/imgui_impl_glfw.i"
+	@echo "... __/external/imgui/backends/imgui_impl_glfw.s"
+	@echo "... __/external/imgui/backends/imgui_impl_opengl3.o"
+	@echo "... __/external/imgui/backends/imgui_impl_opengl3.i"
+	@echo "... __/external/imgui/backends/imgui_impl_opengl3.s"
+	@echo "... __/external/imgui/imgui.o"
+	@echo "... __/external/imgui/imgui.i"
+	@echo "... __/external/imgui/imgui.s"
+	@echo "... __/external/imgui/imgui_demo.o"
+	@echo "... __/external/imgui/imgui_demo.i"
+	@echo "... __/external/imgui/imgui_demo.s"
+	@echo "... __/external/imgui/imgui_draw.o"
+	@echo "... __/external/imgui/imgui_draw.i"
+	@echo "... __/external/imgui/imgui_draw.s"
+	@echo "... __/external/imgui/imgui_tables.o"
+	@echo "... __/external/imgui/imgui_tables.i"
+	@echo "... __/external/imgui/imgui_tables.s"
+	@echo "... __/external/imgui/imgui_widgets.o"
+	@echo "... __/external/imgui/imgui_widgets.i"
+	@echo "... __/external/imgui/imgui_widgets.s"
 	@echo "... src/r_engine_core/Application.o"
 	@echo "... src/r_engine_core/Application.i"
 	@echo "... src/r_engine_core/Application.s"
+	@echo "... src/r_engine_core/Window.o"
+	@echo "... src/r_engine_core/Window.i"
+	@echo "... src/r_engine_core/Window.s"
 .PHONY : help
 
 

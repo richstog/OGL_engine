@@ -1,2 +1,2 @@
-/usr/bin/ar qc libr_engine_core.a CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o
+/usr/bin/ar qc libr_engine_core.a CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o
 /usr/bin/ranlib libr_engine_core.a

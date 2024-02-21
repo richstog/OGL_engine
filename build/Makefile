@@ -130,6 +130,32 @@ r_engine_core/fast:
 .PHONY : r_engine_core/fast
 
 #=============================================================================
+# Target rules for targets named ImGUI
+
+# Build rule for target.
+ImGUI: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ImGUI
+.PHONY : ImGUI
+
+# fast build rule for target.
+ImGUI/fast:
+	$(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/build
+.PHONY : ImGUI/fast
+
+#=============================================================================
+# Target rules for targets named spdlog
+
+# Build rule for target.
+spdlog: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 spdlog
+.PHONY : spdlog
+
+# fast build rule for target.
+spdlog/fast:
+	$(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/build
+.PHONY : spdlog/fast
+
+#=============================================================================
 # Target rules for targets named r_engine_editor
 
 # Build rule for target.
@@ -150,8 +176,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... ImGUI"
 	@echo "... r_engine_core"
 	@echo "... r_engine_editor"
+	@echo "... spdlog"
 .PHONY : help
 
 

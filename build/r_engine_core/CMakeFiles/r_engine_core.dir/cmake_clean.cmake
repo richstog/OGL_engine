@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o"
   "CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o.d"
+  "CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o"
+  "CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o.d"
   "libr_engine_core.a"
   "libr_engine_core.pdb"
 )
