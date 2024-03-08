@@ -229,4 +229,4 @@ r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o: 
  /home/richstog/Documents/projects/r_engine/r_engine_core/includes/r_engine_core/Event.hpp \
  /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Window.hpp \
  /usr/include/GLFW/glfw3.h /usr/include/GL/gl.h /usr/include/GL/glext.h \
- /usr/include/KHR/khrplatform.h
+ /home/richstog/Documents/projects/r_engine/external/glad/include/KHR/khrplatform.h

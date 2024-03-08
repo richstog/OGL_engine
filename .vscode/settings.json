@@ -81,6 +81,9 @@
         "__verbose_abort": "cpp",
         "ios": "cpp",
         "locale": "cpp",
-        "queue": "cpp"
+        "queue": "cpp",
+        "__std_stream": "cpp",
+        "__tree": "cpp",
+        "stack": "cpp"
     }
 }

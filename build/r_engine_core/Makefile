@@ -336,6 +336,126 @@ src/r_engine_core/Application.cpp.s:
 	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.s
 .PHONY : src/r_engine_core/Application.cpp.s
 
+src/r_engine_core/Camera.o: src/r_engine_core/Camera.cpp.o
+.PHONY : src/r_engine_core/Camera.o
+
+# target to build an object file
+src/r_engine_core/Camera.cpp.o:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.o
+.PHONY : src/r_engine_core/Camera.cpp.o
+
+src/r_engine_core/Camera.i: src/r_engine_core/Camera.cpp.i
+.PHONY : src/r_engine_core/Camera.i
+
+# target to preprocess a source file
+src/r_engine_core/Camera.cpp.i:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.i
+.PHONY : src/r_engine_core/Camera.cpp.i
+
+src/r_engine_core/Camera.s: src/r_engine_core/Camera.cpp.s
+.PHONY : src/r_engine_core/Camera.s
+
+# target to generate assembly for a file
+src/r_engine_core/Camera.cpp.s:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.s
+.PHONY : src/r_engine_core/Camera.cpp.s
+
+src/r_engine_core/Rendering/OpenGL/IndexBuffer.o: src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.o
+.PHONY : src/r_engine_core/Rendering/OpenGL/IndexBuffer.o
+
+# target to build an object file
+src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.o:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.o
+.PHONY : src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.o
+
+src/r_engine_core/Rendering/OpenGL/IndexBuffer.i: src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.i
+.PHONY : src/r_engine_core/Rendering/OpenGL/IndexBuffer.i
+
+# target to preprocess a source file
+src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.i:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.i
+.PHONY : src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.i
+
+src/r_engine_core/Rendering/OpenGL/IndexBuffer.s: src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.s
+.PHONY : src/r_engine_core/Rendering/OpenGL/IndexBuffer.s
+
+# target to generate assembly for a file
+src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.s:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.s
+.PHONY : src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.s
+
+src/r_engine_core/Rendering/OpenGL/ShaderProgram.o: src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.o
+.PHONY : src/r_engine_core/Rendering/OpenGL/ShaderProgram.o
+
+# target to build an object file
+src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.o:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.o
+.PHONY : src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.o
+
+src/r_engine_core/Rendering/OpenGL/ShaderProgram.i: src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.i
+.PHONY : src/r_engine_core/Rendering/OpenGL/ShaderProgram.i
+
+# target to preprocess a source file
+src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.i:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.i
+.PHONY : src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.i
+
+src/r_engine_core/Rendering/OpenGL/ShaderProgram.s: src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.s
+.PHONY : src/r_engine_core/Rendering/OpenGL/ShaderProgram.s
+
+# target to generate assembly for a file
+src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.s:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.s
+.PHONY : src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.s
+
+src/r_engine_core/Rendering/OpenGL/VertexArray.o: src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.o
+.PHONY : src/r_engine_core/Rendering/OpenGL/VertexArray.o
+
+# target to build an object file
+src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.o:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.o
+.PHONY : src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.o
+
+src/r_engine_core/Rendering/OpenGL/VertexArray.i: src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.i
+.PHONY : src/r_engine_core/Rendering/OpenGL/VertexArray.i
+
+# target to preprocess a source file
+src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.i:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.i
+.PHONY : src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.i
+
+src/r_engine_core/Rendering/OpenGL/VertexArray.s: src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.s
+.PHONY : src/r_engine_core/Rendering/OpenGL/VertexArray.s
+
+# target to generate assembly for a file
+src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.s:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.s
+.PHONY : src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.s
+
+src/r_engine_core/Rendering/OpenGL/VertexBuffer.o: src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.o
+.PHONY : src/r_engine_core/Rendering/OpenGL/VertexBuffer.o
+
+# target to build an object file
+src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.o:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.o
+.PHONY : src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.o
+
+src/r_engine_core/Rendering/OpenGL/VertexBuffer.i: src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.i
+.PHONY : src/r_engine_core/Rendering/OpenGL/VertexBuffer.i
+
+# target to preprocess a source file
+src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.i:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.i
+.PHONY : src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.i
+
+src/r_engine_core/Rendering/OpenGL/VertexBuffer.s: src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.s
+.PHONY : src/r_engine_core/Rendering/OpenGL/VertexBuffer.s
+
+# target to generate assembly for a file
+src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.s:
+	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.s
+.PHONY : src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.s
+
 src/r_engine_core/Window.o: src/r_engine_core/Window.cpp.o
 .PHONY : src/r_engine_core/Window.o
 
@@ -394,6 +514,21 @@ help:
 	@echo "... src/r_engine_core/Application.o"
 	@echo "... src/r_engine_core/Application.i"
 	@echo "... src/r_engine_core/Application.s"
+	@echo "... src/r_engine_core/Camera.o"
+	@echo "... src/r_engine_core/Camera.i"
+	@echo "... src/r_engine_core/Camera.s"
+	@echo "... src/r_engine_core/Rendering/OpenGL/IndexBuffer.o"
+	@echo "... src/r_engine_core/Rendering/OpenGL/IndexBuffer.i"
+	@echo "... src/r_engine_core/Rendering/OpenGL/IndexBuffer.s"
+	@echo "... src/r_engine_core/Rendering/OpenGL/ShaderProgram.o"
+	@echo "... src/r_engine_core/Rendering/OpenGL/ShaderProgram.i"
+	@echo "... src/r_engine_core/Rendering/OpenGL/ShaderProgram.s"
+	@echo "... src/r_engine_core/Rendering/OpenGL/VertexArray.o"
+	@echo "... src/r_engine_core/Rendering/OpenGL/VertexArray.i"
+	@echo "... src/r_engine_core/Rendering/OpenGL/VertexArray.s"
+	@echo "... src/r_engine_core/Rendering/OpenGL/VertexBuffer.o"
+	@echo "... src/r_engine_core/Rendering/OpenGL/VertexBuffer.i"
+	@echo "... src/r_engine_core/Rendering/OpenGL/VertexBuffer.s"
 	@echo "... src/r_engine_core/Window.o"
 	@echo "... src/r_engine_core/Window.i"
 	@echo "... src/r_engine_core/Window.s"

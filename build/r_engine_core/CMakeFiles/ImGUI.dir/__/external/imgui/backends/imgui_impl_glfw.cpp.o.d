@@ -26,4 +26,5 @@ r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cp
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/GL/gl.h \
- /usr/include/GL/glext.h /usr/include/KHR/khrplatform.h
+ /usr/include/GL/glext.h \
+ /home/richstog/Documents/projects/r_engine/external/glad/include/KHR/khrplatform.h

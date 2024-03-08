@@ -96,8 +96,8 @@ bin/r_engine_editor: r_engine_core/libr_engine_core.a
 bin/r_engine_editor: r_engine_core/spdlog/libspdlogd.a
 bin/r_engine_editor: r_engine_core/libImGUI.a
 bin/r_engine_editor: /usr/lib/x86_64-linux-gnu/libglfw.so.3.3
-bin/r_engine_editor: /usr/lib/x86_64-linux-gnu/libGLX.so
-bin/r_engine_editor: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+bin/r_engine_editor: r_engine_core/glad/libglad.a
+bin/r_engine_editor: r_engine_core/glm/glm/libglm.a
 bin/r_engine_editor: r_engine_editor/CMakeFiles/r_engine_editor.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/richstog/Documents/projects/r_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/r_engine_editor"
 	cd /home/richstog/Documents/projects/r_engine/build/r_engine_editor && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/r_engine_editor.dir/link.txt --verbose=$(VERBOSE)

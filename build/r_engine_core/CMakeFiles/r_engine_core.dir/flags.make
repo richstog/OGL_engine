@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = -DSPDLOG_COMPILED_LIB
 
-CXX_INCLUDES = -I/home/richstog/Documents/projects/r_engine/r_engine_core/includes -I/home/richstog/Documents/projects/r_engine/r_engine_core/src -I/home/richstog/Documents/projects/r_engine/external/spdlog/include -I/home/richstog/Documents/projects/r_engine/r_engine_core/../external -I/home/richstog/Documents/projects/r_engine/r_engine_core/../external/imgui
+CXX_INCLUDES = -I/home/richstog/Documents/projects/r_engine/r_engine_core/includes -I/home/richstog/Documents/projects/r_engine/r_engine_core/src -I/home/richstog/Documents/projects/r_engine/external/glad/include -I/home/richstog/Documents/projects/r_engine/external/spdlog/include -I/home/richstog/Documents/projects/r_engine/r_engine_core/../external -I/home/richstog/Documents/projects/r_engine/r_engine_core/../external/imgui -I/home/richstog/Documents/projects/r_engine/external/glm
 
 CXX_FLAGS = -g
 

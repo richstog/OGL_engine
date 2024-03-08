@@ -21,7 +21,7 @@ namespace r_engine
         m_event_dispatcher.add_event_listener<EventMouseMoved>(
             [](EventMouseMoved& event)
             {
-                LOG_INFO("[MouseMoved] Mouse moved to x {0}; y {1}", event.x, event.y);
+                //LOG_INFO("[MouseMoved] Mouse moved to x {0}; y {1}", event.x, event.y);
             }
         );
 

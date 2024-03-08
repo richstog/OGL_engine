@@ -9,6 +9,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Application.cpp" "r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o" "gcc" "r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o.d"
+  "/home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Camera.cpp" "r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.o" "gcc" "r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.o.d"
+  "/home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp" "r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.o" "gcc" "r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.o.d"
+  "/home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp" "r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.o" "gcc" "r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.o.d"
+  "/home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp" "r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.o" "gcc" "r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.o.d"
+  "/home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp" "r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.o" "gcc" "r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.o.d"
   "/home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Window.cpp" "r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o" "gcc" "r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o.d"
   )
 

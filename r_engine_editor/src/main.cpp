@@ -4,6 +4,7 @@
 #include <r_engine_core/Application.hpp>
 #include <r_engine_core/Log.hpp>
 
+//#define NON_INTERFACE
 
 class MyApp : public r_engine::Application {
     virtual void on_update() override {
