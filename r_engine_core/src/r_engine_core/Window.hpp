@@ -3,6 +3,7 @@
 #include <string>
 #include <GLFW/glfw3.h>
 #include <functional>
+#include <glm/ext/vector_float2.hpp>
 
 #include "r_engine_core/Event.hpp"
 
@@ -23,6 +24,7 @@ namespace r_engine {
         void on_update();
         unsigned int get_width() const { return m_data.width; };
         unsigned int get_height() const { return m_data.height; };
+        glm::vec2 get_current_cursor_position() const;
 
         void set_event_callback(const EventCallbackFunc& callback)
         {
@@ -45,6 +47,5 @@ namespace r_engine {
 
         GLFWwindow* m_pWindow = nullptr;
         WindowData m_data;
-        float m_background_color[4] = {0.33f, 0.33f, 0.33f, 0.f};
     };
 }

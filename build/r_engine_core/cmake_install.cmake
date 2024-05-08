@@ -1,4 +1,4 @@
-# Install script for directory: /home/richstog/Documents/projects/r_engine/r_engine_core
+# Install script for directory: /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,9 +44,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/richstog/Documents/projects/r_engine/build/r_engine_core/glad/cmake_install.cmake")
-  include("/home/richstog/Documents/projects/r_engine/build/r_engine_core/spdlog/cmake_install.cmake")
-  include("/home/richstog/Documents/projects/r_engine/build/r_engine_core/glm/cmake_install.cmake")
+  include("/home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core/glad/cmake_install.cmake")
+  include("/home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core/spdlog/cmake_install.cmake")
+  include("/home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core/glm/cmake_install.cmake")
 
 endif()
 

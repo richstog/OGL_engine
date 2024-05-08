@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/richstog/Documents/projects/r_engine
+CMAKE_SOURCE_DIR = /home/richstog/Documents/projects/r_engine/OGL_engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/richstog/Documents/projects/r_engine/build
+CMAKE_BINARY_DIR = /home/richstog/Documents/projects/r_engine/OGL_engine/build
 
 # Include any dependencies generated for this target.
 include r_engine_core/CMakeFiles/r_engine_core.dir/depend.make
@@ -70,102 +70,158 @@ include r_engine_core/CMakeFiles/r_engine_core.dir/progress.make
 include r_engine_core/CMakeFiles/r_engine_core.dir/flags.make
 
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o: r_engine_core/CMakeFiles/r_engine_core.dir/flags.make
-r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o: /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Application.cpp
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o: /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Application.cpp
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o: r_engine_core/CMakeFiles/r_engine_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o -MF CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o.d -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o -c /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Application.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/OGL_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o -MF CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o.d -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o -c /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Application.cpp
 
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.i"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Application.cpp > CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Application.cpp > CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.i
 
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.s"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Application.cpp -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Application.cpp -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.s
 
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o: r_engine_core/CMakeFiles/r_engine_core.dir/flags.make
-r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o: /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Window.cpp
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o: /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Window.cpp
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o: r_engine_core/CMakeFiles/r_engine_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o -MF CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o.d -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o -c /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/OGL_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o -MF CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o.d -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o -c /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Window.cpp
 
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.i"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Window.cpp > CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Window.cpp > CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.i
 
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.s"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Window.cpp -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Window.cpp -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.s
 
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.o: r_engine_core/CMakeFiles/r_engine_core.dir/flags.make
-r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.o: /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Camera.cpp
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.o: /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Camera.cpp
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.o: r_engine_core/CMakeFiles/r_engine_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.o"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.o -MF CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.o.d -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.o -c /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/OGL_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.o"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.o -MF CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.o.d -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.o -c /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Camera.cpp
 
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.i"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Camera.cpp > CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Camera.cpp > CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.i
 
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.s"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Camera.cpp -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Camera.cpp -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.s
 
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.o: r_engine_core/CMakeFiles/r_engine_core.dir/flags.make
-r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.o: /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.o: /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.o: r_engine_core/CMakeFiles/r_engine_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.o"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.o -MF CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.o.d -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.o -c /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/OGL_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.o"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.o -MF CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.o.d -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.o -c /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp
 
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.i"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp > CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp > CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.i
 
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.s"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.s
 
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.o: r_engine_core/CMakeFiles/r_engine_core.dir/flags.make
-r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.o: /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.o: /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.o: r_engine_core/CMakeFiles/r_engine_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.o"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.o -MF CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.o.d -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.o -c /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/OGL_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.o"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.o -MF CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.o.d -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.o -c /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp
 
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.i"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp > CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp > CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.i
 
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.s"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.s
 
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.o: r_engine_core/CMakeFiles/r_engine_core.dir/flags.make
-r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.o: /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.o: /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.o: r_engine_core/CMakeFiles/r_engine_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.o"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.o -MF CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.o.d -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.o -c /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/OGL_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.o"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.o -MF CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.o.d -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.o -c /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp
 
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.i"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp > CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp > CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.i
 
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.s"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.s
 
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.o: r_engine_core/CMakeFiles/r_engine_core.dir/flags.make
-r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.o: /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.o: /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.o: r_engine_core/CMakeFiles/r_engine_core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.o"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.o -MF CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.o.d -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.o -c /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/OGL_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.o"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.o -MF CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.o.d -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.o -c /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp
 
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.i"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp > CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp > CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.i
 
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.s"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.s
+
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Texture2D.cpp.o: r_engine_core/CMakeFiles/r_engine_core.dir/flags.make
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Texture2D.cpp.o: /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/Texture2D.cpp
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Texture2D.cpp.o: r_engine_core/CMakeFiles/r_engine_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/OGL_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Texture2D.cpp.o"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Texture2D.cpp.o -MF CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Texture2D.cpp.o.d -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Texture2D.cpp.o -c /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/Texture2D.cpp
+
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Texture2D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Texture2D.cpp.i"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/Texture2D.cpp > CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Texture2D.cpp.i
+
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Texture2D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Texture2D.cpp.s"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/Texture2D.cpp -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Texture2D.cpp.s
+
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp.o: r_engine_core/CMakeFiles/r_engine_core.dir/flags.make
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp.o: /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp.o: r_engine_core/CMakeFiles/r_engine_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/OGL_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp.o"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp.o -MF CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp.o.d -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp.o -c /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp
+
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp.i"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp > CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp.i
+
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp.s"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp.s
+
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Modules/UIModule.cpp.o: r_engine_core/CMakeFiles/r_engine_core.dir/flags.make
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Modules/UIModule.cpp.o: /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Modules/UIModule.cpp
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Modules/UIModule.cpp.o: r_engine_core/CMakeFiles/r_engine_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/OGL_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Modules/UIModule.cpp.o"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Modules/UIModule.cpp.o -MF CMakeFiles/r_engine_core.dir/src/r_engine_core/Modules/UIModule.cpp.o.d -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Modules/UIModule.cpp.o -c /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Modules/UIModule.cpp
+
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Modules/UIModule.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/r_engine_core.dir/src/r_engine_core/Modules/UIModule.cpp.i"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Modules/UIModule.cpp > CMakeFiles/r_engine_core.dir/src/r_engine_core/Modules/UIModule.cpp.i
+
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Modules/UIModule.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/r_engine_core.dir/src/r_engine_core/Modules/UIModule.cpp.s"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Modules/UIModule.cpp -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Modules/UIModule.cpp.s
+
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Input.cpp.o: r_engine_core/CMakeFiles/r_engine_core.dir/flags.make
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Input.cpp.o: /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Input.cpp
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Input.cpp.o: r_engine_core/CMakeFiles/r_engine_core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/OGL_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Input.cpp.o"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Input.cpp.o -MF CMakeFiles/r_engine_core.dir/src/r_engine_core/Input.cpp.o.d -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Input.cpp.o -c /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Input.cpp
+
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Input.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/r_engine_core.dir/src/r_engine_core/Input.cpp.i"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Input.cpp > CMakeFiles/r_engine_core.dir/src/r_engine_core/Input.cpp.i
+
+r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Input.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/r_engine_core.dir/src/r_engine_core/Input.cpp.s"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Input.cpp -o CMakeFiles/r_engine_core.dir/src/r_engine_core/Input.cpp.s
 
 # Object files for target r_engine_core
 r_engine_core_OBJECTS = \
@@ -175,7 +231,11 @@ r_engine_core_OBJECTS = \
 "CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.o" \
 "CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.o" \
 "CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.o" \
-"CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.o"
+"CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.o" \
+"CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Texture2D.cpp.o" \
+"CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp.o" \
+"CMakeFiles/r_engine_core.dir/src/r_engine_core/Modules/UIModule.cpp.o" \
+"CMakeFiles/r_engine_core.dir/src/r_engine_core/Input.cpp.o"
 
 # External object files for target r_engine_core
 r_engine_core_EXTERNAL_OBJECTS =
@@ -187,21 +247,25 @@ r_engine_core/libr_engine_core.a: r_engine_core/CMakeFiles/r_engine_core.dir/src
 r_engine_core/libr_engine_core.a: r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.o
 r_engine_core/libr_engine_core.a: r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.o
 r_engine_core/libr_engine_core.a: r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.o
+r_engine_core/libr_engine_core.a: r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Texture2D.cpp.o
+r_engine_core/libr_engine_core.a: r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp.o
+r_engine_core/libr_engine_core.a: r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Modules/UIModule.cpp.o
+r_engine_core/libr_engine_core.a: r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Input.cpp.o
 r_engine_core/libr_engine_core.a: r_engine_core/CMakeFiles/r_engine_core.dir/build.make
 r_engine_core/libr_engine_core.a: r_engine_core/CMakeFiles/r_engine_core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/richstog/Documents/projects/r_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libr_engine_core.a"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && $(CMAKE_COMMAND) -P CMakeFiles/r_engine_core.dir/cmake_clean_target.cmake
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/r_engine_core.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/richstog/Documents/projects/r_engine/OGL_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX static library libr_engine_core.a"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && $(CMAKE_COMMAND) -P CMakeFiles/r_engine_core.dir/cmake_clean_target.cmake
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/r_engine_core.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 r_engine_core/CMakeFiles/r_engine_core.dir/build: r_engine_core/libr_engine_core.a
 .PHONY : r_engine_core/CMakeFiles/r_engine_core.dir/build
 
 r_engine_core/CMakeFiles/r_engine_core.dir/clean:
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && $(CMAKE_COMMAND) -P CMakeFiles/r_engine_core.dir/cmake_clean.cmake
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && $(CMAKE_COMMAND) -P CMakeFiles/r_engine_core.dir/cmake_clean.cmake
 .PHONY : r_engine_core/CMakeFiles/r_engine_core.dir/clean
 
 r_engine_core/CMakeFiles/r_engine_core.dir/depend:
-	cd /home/richstog/Documents/projects/r_engine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/richstog/Documents/projects/r_engine /home/richstog/Documents/projects/r_engine/r_engine_core /home/richstog/Documents/projects/r_engine/build /home/richstog/Documents/projects/r_engine/build/r_engine_core /home/richstog/Documents/projects/r_engine/build/r_engine_core/CMakeFiles/r_engine_core.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/richstog/Documents/projects/r_engine/OGL_engine /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core /home/richstog/Documents/projects/r_engine/OGL_engine/build /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core/CMakeFiles/r_engine_core.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : r_engine_core/CMakeFiles/r_engine_core.dir/depend
 

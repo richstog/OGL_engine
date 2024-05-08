@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/richstog/Documents/projects/r_engine/r_engine_editor/src/main.cpp" "r_engine_editor/CMakeFiles/r_engine_editor.dir/src/main.cpp.o" "gcc" "r_engine_editor/CMakeFiles/r_engine_editor.dir/src/main.cpp.o.d"
+  "/home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_editor/src/main.cpp" "r_engine_editor/CMakeFiles/r_engine_editor.dir/src/main.cpp.o" "gcc" "r_engine_editor/CMakeFiles/r_engine_editor.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

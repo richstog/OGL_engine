@@ -1,10 +1,10 @@
 r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o: \
- /home/richstog/Documents/projects/r_engine/external/spdlog/src/file_sinks.cpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/src/file_sinks.cpp \
  /usr/include/stdc-predef.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/details/file_helper-inl.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/details/file_helper.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/common.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/details/null_mutex.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/details/file_helper-inl.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/details/file_helper.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/common.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/details/null_mutex.h \
  /usr/include/c++/13/atomic /usr/include/c++/13/bits/atomic_base.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -30,7 +30,7 @@ r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o: \
  /usr/include/c++/13/utility /usr/include/c++/13/bits/stl_relops.h \
  /usr/include/c++/13/bits/stl_pair.h /usr/include/c++/13/bits/utility.h \
  /usr/include/c++/13/initializer_list \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/tweakme.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/tweakme.h \
  /usr/include/c++/13/chrono /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/c++/13/bits/chrono.h /usr/include/c++/13/ratio \
  /usr/include/c++/13/cstdint /usr/include/c++/13/limits \
@@ -154,8 +154,8 @@ r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/13/bits/charconv.h \
  /usr/include/c++/13/bits/basic_string.tcc \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/fmt/fmt.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/fmt/bundled/core.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/fmt/fmt.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/fmt/bundled/core.h \
  /usr/include/c++/13/cstddef /usr/include/c++/13/cstring \
  /usr/include/string.h /usr/include/strings.h \
  /usr/include/c++/13/iterator /usr/include/c++/13/bits/stream_iterator.h \
@@ -166,7 +166,7 @@ r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o: \
  /usr/include/c++/13/system_error \
  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
  /usr/include/c++/13/stdexcept /usr/include/c++/13/bits/streambuf.tcc \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/fmt/bundled/format.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/fmt/bundled/format.h \
  /usr/include/c++/13/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -177,16 +177,16 @@ r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/fmt/bundled/core.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/details/os.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/fmt/bundled/core.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/details/os.h \
  /usr/include/c++/13/thread /usr/include/c++/13/bits/std_thread.h \
  /usr/include/c++/13/bits/this_thread_sleep.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/sinks/base_sink-inl.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/sinks/base_sink.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/details/log_msg.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/sinks/sink.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/formatter.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/pattern_formatter.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/sinks/base_sink-inl.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/sinks/base_sink.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/details/log_msg.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/sinks/sink.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/formatter.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/pattern_formatter.h \
  /usr/include/c++/13/unordered_map \
  /usr/include/c++/13/bits/unordered_map.h \
  /usr/include/c++/13/bits/hashtable.h \
@@ -198,11 +198,11 @@ r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o: \
  /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/mutex \
  /usr/include/c++/13/bits/std_mutex.h \
  /usr/include/c++/13/bits/unique_lock.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/sinks/basic_file_sink-inl.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/sinks/basic_file_sink.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/details/synchronous_factory.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/details/registry.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/details/periodic_worker.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/sinks/basic_file_sink-inl.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/sinks/basic_file_sink.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/details/synchronous_factory.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/details/registry.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/details/periodic_worker.h \
  /usr/include/c++/13/condition_variable \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/sinks/rotating_file_sink-inl.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/sinks/rotating_file_sink.h
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/sinks/rotating_file_sink-inl.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/sinks/rotating_file_sink.h

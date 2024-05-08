@@ -1,7 +1,7 @@
 r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o: \
- /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Application.cpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Application.cpp \
  /usr/include/stdc-predef.h \
- /home/richstog/Documents/projects/r_engine/r_engine_core/includes/r_engine_core/Application.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/includes/r_engine_core/Application.hpp \
  /usr/include/c++/13/memory /usr/include/c++/13/bits/memoryfwd.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -115,14 +115,14 @@ r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o: 
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
- /home/richstog/Documents/projects/r_engine/r_engine_core/includes/r_engine_core/Log.hpp \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/spdlog.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/common.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/details/null_mutex.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/includes/r_engine_core/Log.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/spdlog.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/common.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/details/null_mutex.h \
  /usr/include/c++/13/atomic /usr/include/c++/13/utility \
  /usr/include/c++/13/bits/stl_relops.h \
  /usr/include/c++/13/initializer_list \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/tweakme.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/tweakme.h \
  /usr/include/c++/13/chrono /usr/include/c++/13/bits/chrono.h \
  /usr/include/c++/13/ratio /usr/include/c++/13/cstdint \
  /usr/include/c++/13/limits /usr/include/c++/13/ctime \
@@ -176,8 +176,8 @@ r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o: 
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/13/bits/charconv.h \
  /usr/include/c++/13/bits/basic_string.tcc \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/fmt/fmt.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/fmt/bundled/core.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/fmt/fmt.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/fmt/bundled/core.h \
  /usr/include/c++/13/cstring /usr/include/string.h /usr/include/strings.h \
  /usr/include/c++/13/iterator /usr/include/c++/13/bits/stream_iterator.h \
  /usr/include/c++/13/bits/streambuf_iterator.h \
@@ -187,7 +187,7 @@ r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o: 
  /usr/include/c++/13/system_error \
  /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h \
  /usr/include/c++/13/stdexcept /usr/include/c++/13/bits/streambuf.tcc \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/fmt/bundled/format.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/fmt/bundled/format.h \
  /usr/include/c++/13/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -210,23 +210,251 @@ r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o: 
  /usr/include/c++/13/tr1/poly_hermite.tcc \
  /usr/include/c++/13/tr1/poly_laguerre.tcc \
  /usr/include/c++/13/tr1/riemann_zeta.tcc \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/fmt/bundled/core.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/details/registry.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/details/periodic_worker.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/fmt/bundled/core.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/details/registry.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/details/periodic_worker.h \
  /usr/include/c++/13/condition_variable \
  /usr/include/c++/13/bits/std_mutex.h \
  /usr/include/c++/13/bits/unique_lock.h /usr/include/c++/13/mutex \
  /usr/include/c++/13/thread /usr/include/c++/13/bits/std_thread.h \
  /usr/include/c++/13/bits/this_thread_sleep.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/details/synchronous_factory.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/logger.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/details/backtracer.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/details/circular_q.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/details/synchronous_factory.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/logger.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/details/backtracer.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/details/circular_q.h \
  /usr/include/c++/13/cassert /usr/include/assert.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/details/log_msg_buffer.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/details/log_msg.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/version.h \
- /home/richstog/Documents/projects/r_engine/r_engine_core/includes/r_engine_core/Event.hpp \
- /home/richstog/Documents/projects/r_engine/r_engine_core/src/r_engine_core/Window.hpp \
- /usr/include/GLFW/glfw3.h /usr/include/GL/gl.h /usr/include/GL/glext.h \
- /home/richstog/Documents/projects/r_engine/external/glad/include/KHR/khrplatform.h
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/details/log_msg_buffer.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/details/log_msg.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/version.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/includes/r_engine_core/Event.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/includes/r_engine_core/Keys.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/includes/r_engine_core/Camera.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/vec3.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/./ext/vector_bool3.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/./ext/../detail/type_vec3.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/./ext/../detail/qualifier.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/./ext/../detail/setup.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/./ext/../detail/../simd/platform.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/./ext/../detail/type_vec3.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/./ext/../detail/compute_vector_relational.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/./ext/vector_bool3_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/./ext/vector_float3.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/./ext/vector_float3_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/./ext/vector_double3.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/./ext/vector_double3_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/./ext/vector_int3.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/./ext/vector_int3_sized.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/./ext/../ext/scalar_int_sized.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/./ext/../ext/../detail/setup.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/./ext/vector_uint3.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/./ext/vector_uint3_sized.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/./ext/../ext/scalar_uint_sized.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/matrix_float4x4.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/type_mat4x4.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/type_vec4.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/type_vec4.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/type_mat4x4.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../matrix.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../detail/setup.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../vec2.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/vector_bool2.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/../detail/type_vec2.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/../detail/type_vec2.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/vector_bool2_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/vector_float2.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/vector_float2_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/vector_double2.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/vector_double2_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/vector_int2.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/vector_int2_sized.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/vector_uint2.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/vector_uint2_sized.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../vec4.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/vector_bool4.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/vector_bool4_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/vector_float4.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/vector_float4_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/vector_double4.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/vector_double4_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/../detail/setup.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/vector_int4.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/vector_int4_sized.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/vector_uint4.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/vector_uint4_sized.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../mat2x2.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_double2x2.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/../detail/type_mat2x2.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/../detail/type_mat2x2.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_double2x2_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_float2x2.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_float2x2_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../mat2x3.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_double2x3.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/../detail/type_mat2x3.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/../detail/type_mat2x3.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_double2x3_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_float2x3.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_float2x3_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../mat2x4.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_double2x4.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/../detail/type_mat2x4.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/../detail/type_mat2x4.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_double2x4_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_float2x4.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_float2x4_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../mat3x2.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_double3x2.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/../detail/type_mat3x2.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/../detail/type_mat3x2.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_double3x2_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_float3x2.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_float3x2_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../mat3x3.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_double3x3.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/../detail/type_mat3x3.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/../detail/type_mat3x3.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_double3x3_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_float3x3.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_float3x3_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../mat3x4.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_double3x4.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/../detail/type_mat3x4.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/../detail/type_mat3x4.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_double3x4_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_float3x4.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_float3x4_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../mat4x2.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_double4x2.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/../detail/type_mat4x2.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/../detail/type_mat4x2.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_double4x2_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_float4x2.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_float4x2_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../mat4x3.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_double4x3.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/../detail/type_mat4x3.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/../detail/type_mat4x3.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_double4x3_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_float4x3.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_float4x3_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../mat4x4.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_double4x4.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_double4x4_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/.././ext/matrix_float4x4_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../detail/func_matrix.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../detail/../geometric.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../detail/../detail/func_geometric.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../detail/../detail/../exponential.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../detail/../detail/../detail/type_vec1.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../detail/../detail/../detail/type_vec1.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../detail/../detail/../detail/func_exponential.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../detail/../detail/../detail/../vector_relational.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../detail/../detail/../detail/../detail/setup.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../detail/../detail/../detail/../detail/func_vector_relational.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../detail/../detail/../detail/_vectorize.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../detail/../detail/../common.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../detail/../detail/../detail/_fixes.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../detail/../detail/../detail/func_common.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../detail/../detail/../detail/compute_common.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/ext/../detail/../detail/../detail/../detail/setup.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Window.hpp \
+ /usr/include/GLFW/glfw3.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/ShaderProgram.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glad/include/glad/glad.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glad/include/KHR/khrplatform.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/VertexBuffer.hpp \
+ /usr/include/c++/13/stdlib.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/IndexBuffer.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/VertexArray.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/includes/r_engine_core/Input.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/Texture2D.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/src/r_engine_core/Modules/UIModule.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/../external/imgui/imgui.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/../external/imgui/imconfig.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/../external/imgui/backends/imgui_impl_opengl3.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/../external/imgui/backends/imgui_impl_glfw.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/glm.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/detail/_fixes.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/detail/setup.hpp \
+ /usr/include/c++/13/climits \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/c++/13/cfloat \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/fwd.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/trigonometric.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/detail/func_trigonometric.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/packing.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/detail/func_packing.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/detail/type_half.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/detail/setup.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/detail/type_half.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/integer.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/detail/func_integer.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/matrix_transform.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../ext/matrix_projection.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../ext/../gtc/constants.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../ext/../gtc/../ext/scalar_constants.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../ext/../gtc/../ext/../detail/setup.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../ext/../gtc/../ext/scalar_constants.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../ext/../gtc/constants.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../ext/matrix_projection.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../ext/matrix_clip_space.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../ext/matrix_clip_space.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../ext/matrix_transform.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../ext/matrix_transform.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/matrix_transform.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/type_ptr.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/quaternion.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/vector_relational.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/vector_relational.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/../detail/type_float.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/../detail/setup.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/quaternion_common.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/../ext/quaternion_geometric.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/../ext/quaternion_geometric.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/quaternion_common.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/quaternion_float.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/../detail/type_quat.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/../detail/../ext/quaternion_relational.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/../detail/../ext/quaternion_relational.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/../detail/type_quat.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/quaternion_float_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/quaternion_double.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/quaternion_double_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/quaternion_trigonometric.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/quaternion_trigonometric.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/quaternion_transform.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/quaternion_transform.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/quaternion.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/epsilon.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../detail/setup.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/epsilon.inl \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/vec1.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/vector_bool1.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/vector_bool1_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/vector_float1.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/vector_float1_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/vector_double1.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/vector_double1_precision.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/vector_int1.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/vector_int1_sized.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/vector_uint1.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/../gtc/../ext/vector_uint1_sized.hpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glm/glm/gtc/type_ptr.inl \
+ /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
+ /usr/include/c++/13/ios /usr/include/c++/13/bits/basic_ios.h \
+ /usr/include/c++/13/bits/locale_facets.h /usr/include/c++/13/cwctype \
+ /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h \
+ /usr/include/c++/13/bits/locale_facets.tcc \
+ /usr/include/c++/13/bits/basic_ios.tcc \
+ /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
+ /usr/include/c++/13/bits/istream.tcc

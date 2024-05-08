@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/richstog/Documents/projects/r_engine
+CMAKE_SOURCE_DIR = /home/richstog/Documents/projects/r_engine/OGL_engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/richstog/Documents/projects/r_engine/build
+CMAKE_BINARY_DIR = /home/richstog/Documents/projects/r_engine/OGL_engine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/richstog/Documents/projects/r_engine/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/richstog/Documents/projects/r_engine/build/CMakeFiles /home/richstog/Documents/projects/r_engine/build/r_engine_core//CMakeFiles/progress.marks
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r_engine_core/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/richstog/Documents/projects/r_engine/build/CMakeFiles 0
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/richstog/Documents/projects/r_engine/OGL_engine/build/CMakeFiles /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core//CMakeFiles/progress.marks
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r_engine_core/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/richstog/Documents/projects/r_engine/OGL_engine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r_engine_core/clean
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r_engine_core/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r_engine_core/preinstall
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r_engine_core/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r_engine_core/preinstall
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r_engine_core/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/richstog/Documents/projects/r_engine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 r_engine_core/CMakeFiles/r_engine_core.dir/rule:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r_engine_core/CMakeFiles/r_engine_core.dir/rule
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r_engine_core/CMakeFiles/r_engine_core.dir/rule
 .PHONY : r_engine_core/CMakeFiles/r_engine_core.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ r_engine_core: r_engine_core/CMakeFiles/r_engine_core.dir/rule
 
 # fast build rule for target.
 r_engine_core/fast:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/build
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/build
 .PHONY : r_engine_core/fast
 
 # Convenience name for target.
 r_engine_core/CMakeFiles/ImGUI.dir/rule:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r_engine_core/CMakeFiles/ImGUI.dir/rule
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r_engine_core/CMakeFiles/ImGUI.dir/rule
 .PHONY : r_engine_core/CMakeFiles/ImGUI.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ ImGUI: r_engine_core/CMakeFiles/ImGUI.dir/rule
 
 # fast build rule for target.
 ImGUI/fast:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/build
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/build
 .PHONY : ImGUI/fast
 
 __/external/imgui/backends/imgui_impl_glfw.o: __/external/imgui/backends/imgui_impl_glfw.cpp.o
@@ -149,7 +149,7 @@ __/external/imgui/backends/imgui_impl_glfw.o: __/external/imgui/backends/imgui_i
 
 # target to build an object file
 __/external/imgui/backends/imgui_impl_glfw.cpp.o:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.o
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.o
 .PHONY : __/external/imgui/backends/imgui_impl_glfw.cpp.o
 
 __/external/imgui/backends/imgui_impl_glfw.i: __/external/imgui/backends/imgui_impl_glfw.cpp.i
@@ -157,7 +157,7 @@ __/external/imgui/backends/imgui_impl_glfw.i: __/external/imgui/backends/imgui_i
 
 # target to preprocess a source file
 __/external/imgui/backends/imgui_impl_glfw.cpp.i:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.i
 .PHONY : __/external/imgui/backends/imgui_impl_glfw.cpp.i
 
 __/external/imgui/backends/imgui_impl_glfw.s: __/external/imgui/backends/imgui_impl_glfw.cpp.s
@@ -165,7 +165,7 @@ __/external/imgui/backends/imgui_impl_glfw.s: __/external/imgui/backends/imgui_i
 
 # target to generate assembly for a file
 __/external/imgui/backends/imgui_impl_glfw.cpp.s:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.s
 .PHONY : __/external/imgui/backends/imgui_impl_glfw.cpp.s
 
 __/external/imgui/backends/imgui_impl_opengl3.o: __/external/imgui/backends/imgui_impl_opengl3.cpp.o
@@ -173,7 +173,7 @@ __/external/imgui/backends/imgui_impl_opengl3.o: __/external/imgui/backends/imgu
 
 # target to build an object file
 __/external/imgui/backends/imgui_impl_opengl3.cpp.o:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.o
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.o
 .PHONY : __/external/imgui/backends/imgui_impl_opengl3.cpp.o
 
 __/external/imgui/backends/imgui_impl_opengl3.i: __/external/imgui/backends/imgui_impl_opengl3.cpp.i
@@ -181,7 +181,7 @@ __/external/imgui/backends/imgui_impl_opengl3.i: __/external/imgui/backends/imgu
 
 # target to preprocess a source file
 __/external/imgui/backends/imgui_impl_opengl3.cpp.i:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.i
 .PHONY : __/external/imgui/backends/imgui_impl_opengl3.cpp.i
 
 __/external/imgui/backends/imgui_impl_opengl3.s: __/external/imgui/backends/imgui_impl_opengl3.cpp.s
@@ -189,7 +189,7 @@ __/external/imgui/backends/imgui_impl_opengl3.s: __/external/imgui/backends/imgu
 
 # target to generate assembly for a file
 __/external/imgui/backends/imgui_impl_opengl3.cpp.s:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.s
 .PHONY : __/external/imgui/backends/imgui_impl_opengl3.cpp.s
 
 __/external/imgui/imgui.o: __/external/imgui/imgui.cpp.o
@@ -197,7 +197,7 @@ __/external/imgui/imgui.o: __/external/imgui/imgui.cpp.o
 
 # target to build an object file
 __/external/imgui/imgui.cpp.o:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.o
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.o
 .PHONY : __/external/imgui/imgui.cpp.o
 
 __/external/imgui/imgui.i: __/external/imgui/imgui.cpp.i
@@ -205,7 +205,7 @@ __/external/imgui/imgui.i: __/external/imgui/imgui.cpp.i
 
 # target to preprocess a source file
 __/external/imgui/imgui.cpp.i:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.i
 .PHONY : __/external/imgui/imgui.cpp.i
 
 __/external/imgui/imgui.s: __/external/imgui/imgui.cpp.s
@@ -213,7 +213,7 @@ __/external/imgui/imgui.s: __/external/imgui/imgui.cpp.s
 
 # target to generate assembly for a file
 __/external/imgui/imgui.cpp.s:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.s
 .PHONY : __/external/imgui/imgui.cpp.s
 
 __/external/imgui/imgui_demo.o: __/external/imgui/imgui_demo.cpp.o
@@ -221,7 +221,7 @@ __/external/imgui/imgui_demo.o: __/external/imgui/imgui_demo.cpp.o
 
 # target to build an object file
 __/external/imgui/imgui_demo.cpp.o:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.o
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.o
 .PHONY : __/external/imgui/imgui_demo.cpp.o
 
 __/external/imgui/imgui_demo.i: __/external/imgui/imgui_demo.cpp.i
@@ -229,7 +229,7 @@ __/external/imgui/imgui_demo.i: __/external/imgui/imgui_demo.cpp.i
 
 # target to preprocess a source file
 __/external/imgui/imgui_demo.cpp.i:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.i
 .PHONY : __/external/imgui/imgui_demo.cpp.i
 
 __/external/imgui/imgui_demo.s: __/external/imgui/imgui_demo.cpp.s
@@ -237,7 +237,7 @@ __/external/imgui/imgui_demo.s: __/external/imgui/imgui_demo.cpp.s
 
 # target to generate assembly for a file
 __/external/imgui/imgui_demo.cpp.s:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.s
 .PHONY : __/external/imgui/imgui_demo.cpp.s
 
 __/external/imgui/imgui_draw.o: __/external/imgui/imgui_draw.cpp.o
@@ -245,7 +245,7 @@ __/external/imgui/imgui_draw.o: __/external/imgui/imgui_draw.cpp.o
 
 # target to build an object file
 __/external/imgui/imgui_draw.cpp.o:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.o
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.o
 .PHONY : __/external/imgui/imgui_draw.cpp.o
 
 __/external/imgui/imgui_draw.i: __/external/imgui/imgui_draw.cpp.i
@@ -253,7 +253,7 @@ __/external/imgui/imgui_draw.i: __/external/imgui/imgui_draw.cpp.i
 
 # target to preprocess a source file
 __/external/imgui/imgui_draw.cpp.i:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.i
 .PHONY : __/external/imgui/imgui_draw.cpp.i
 
 __/external/imgui/imgui_draw.s: __/external/imgui/imgui_draw.cpp.s
@@ -261,7 +261,7 @@ __/external/imgui/imgui_draw.s: __/external/imgui/imgui_draw.cpp.s
 
 # target to generate assembly for a file
 __/external/imgui/imgui_draw.cpp.s:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.s
 .PHONY : __/external/imgui/imgui_draw.cpp.s
 
 __/external/imgui/imgui_tables.o: __/external/imgui/imgui_tables.cpp.o
@@ -269,7 +269,7 @@ __/external/imgui/imgui_tables.o: __/external/imgui/imgui_tables.cpp.o
 
 # target to build an object file
 __/external/imgui/imgui_tables.cpp.o:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.o
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.o
 .PHONY : __/external/imgui/imgui_tables.cpp.o
 
 __/external/imgui/imgui_tables.i: __/external/imgui/imgui_tables.cpp.i
@@ -277,7 +277,7 @@ __/external/imgui/imgui_tables.i: __/external/imgui/imgui_tables.cpp.i
 
 # target to preprocess a source file
 __/external/imgui/imgui_tables.cpp.i:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.i
 .PHONY : __/external/imgui/imgui_tables.cpp.i
 
 __/external/imgui/imgui_tables.s: __/external/imgui/imgui_tables.cpp.s
@@ -285,7 +285,7 @@ __/external/imgui/imgui_tables.s: __/external/imgui/imgui_tables.cpp.s
 
 # target to generate assembly for a file
 __/external/imgui/imgui_tables.cpp.s:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.s
 .PHONY : __/external/imgui/imgui_tables.cpp.s
 
 __/external/imgui/imgui_widgets.o: __/external/imgui/imgui_widgets.cpp.o
@@ -293,7 +293,7 @@ __/external/imgui/imgui_widgets.o: __/external/imgui/imgui_widgets.cpp.o
 
 # target to build an object file
 __/external/imgui/imgui_widgets.cpp.o:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.o
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.o
 .PHONY : __/external/imgui/imgui_widgets.cpp.o
 
 __/external/imgui/imgui_widgets.i: __/external/imgui/imgui_widgets.cpp.i
@@ -301,7 +301,7 @@ __/external/imgui/imgui_widgets.i: __/external/imgui/imgui_widgets.cpp.i
 
 # target to preprocess a source file
 __/external/imgui/imgui_widgets.cpp.i:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.i
 .PHONY : __/external/imgui/imgui_widgets.cpp.i
 
 __/external/imgui/imgui_widgets.s: __/external/imgui/imgui_widgets.cpp.s
@@ -309,7 +309,7 @@ __/external/imgui/imgui_widgets.s: __/external/imgui/imgui_widgets.cpp.s
 
 # target to generate assembly for a file
 __/external/imgui/imgui_widgets.cpp.s:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/ImGUI.dir/build.make r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.s
 .PHONY : __/external/imgui/imgui_widgets.cpp.s
 
 src/r_engine_core/Application.o: src/r_engine_core/Application.cpp.o
@@ -317,7 +317,7 @@ src/r_engine_core/Application.o: src/r_engine_core/Application.cpp.o
 
 # target to build an object file
 src/r_engine_core/Application.cpp.o:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.o
 .PHONY : src/r_engine_core/Application.cpp.o
 
 src/r_engine_core/Application.i: src/r_engine_core/Application.cpp.i
@@ -325,7 +325,7 @@ src/r_engine_core/Application.i: src/r_engine_core/Application.cpp.i
 
 # target to preprocess a source file
 src/r_engine_core/Application.cpp.i:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.i
 .PHONY : src/r_engine_core/Application.cpp.i
 
 src/r_engine_core/Application.s: src/r_engine_core/Application.cpp.s
@@ -333,7 +333,7 @@ src/r_engine_core/Application.s: src/r_engine_core/Application.cpp.s
 
 # target to generate assembly for a file
 src/r_engine_core/Application.cpp.s:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Application.cpp.s
 .PHONY : src/r_engine_core/Application.cpp.s
 
 src/r_engine_core/Camera.o: src/r_engine_core/Camera.cpp.o
@@ -341,7 +341,7 @@ src/r_engine_core/Camera.o: src/r_engine_core/Camera.cpp.o
 
 # target to build an object file
 src/r_engine_core/Camera.cpp.o:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.o
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.o
 .PHONY : src/r_engine_core/Camera.cpp.o
 
 src/r_engine_core/Camera.i: src/r_engine_core/Camera.cpp.i
@@ -349,7 +349,7 @@ src/r_engine_core/Camera.i: src/r_engine_core/Camera.cpp.i
 
 # target to preprocess a source file
 src/r_engine_core/Camera.cpp.i:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.i
 .PHONY : src/r_engine_core/Camera.cpp.i
 
 src/r_engine_core/Camera.s: src/r_engine_core/Camera.cpp.s
@@ -357,15 +357,63 @@ src/r_engine_core/Camera.s: src/r_engine_core/Camera.cpp.s
 
 # target to generate assembly for a file
 src/r_engine_core/Camera.cpp.s:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Camera.cpp.s
 .PHONY : src/r_engine_core/Camera.cpp.s
+
+src/r_engine_core/Input.o: src/r_engine_core/Input.cpp.o
+.PHONY : src/r_engine_core/Input.o
+
+# target to build an object file
+src/r_engine_core/Input.cpp.o:
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Input.cpp.o
+.PHONY : src/r_engine_core/Input.cpp.o
+
+src/r_engine_core/Input.i: src/r_engine_core/Input.cpp.i
+.PHONY : src/r_engine_core/Input.i
+
+# target to preprocess a source file
+src/r_engine_core/Input.cpp.i:
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Input.cpp.i
+.PHONY : src/r_engine_core/Input.cpp.i
+
+src/r_engine_core/Input.s: src/r_engine_core/Input.cpp.s
+.PHONY : src/r_engine_core/Input.s
+
+# target to generate assembly for a file
+src/r_engine_core/Input.cpp.s:
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Input.cpp.s
+.PHONY : src/r_engine_core/Input.cpp.s
+
+src/r_engine_core/Modules/UIModule.o: src/r_engine_core/Modules/UIModule.cpp.o
+.PHONY : src/r_engine_core/Modules/UIModule.o
+
+# target to build an object file
+src/r_engine_core/Modules/UIModule.cpp.o:
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Modules/UIModule.cpp.o
+.PHONY : src/r_engine_core/Modules/UIModule.cpp.o
+
+src/r_engine_core/Modules/UIModule.i: src/r_engine_core/Modules/UIModule.cpp.i
+.PHONY : src/r_engine_core/Modules/UIModule.i
+
+# target to preprocess a source file
+src/r_engine_core/Modules/UIModule.cpp.i:
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Modules/UIModule.cpp.i
+.PHONY : src/r_engine_core/Modules/UIModule.cpp.i
+
+src/r_engine_core/Modules/UIModule.s: src/r_engine_core/Modules/UIModule.cpp.s
+.PHONY : src/r_engine_core/Modules/UIModule.s
+
+# target to generate assembly for a file
+src/r_engine_core/Modules/UIModule.cpp.s:
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Modules/UIModule.cpp.s
+.PHONY : src/r_engine_core/Modules/UIModule.cpp.s
 
 src/r_engine_core/Rendering/OpenGL/IndexBuffer.o: src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.o
 .PHONY : src/r_engine_core/Rendering/OpenGL/IndexBuffer.o
 
 # target to build an object file
 src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.o:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.o
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.o
 .PHONY : src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.o
 
 src/r_engine_core/Rendering/OpenGL/IndexBuffer.i: src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.i
@@ -373,7 +421,7 @@ src/r_engine_core/Rendering/OpenGL/IndexBuffer.i: src/r_engine_core/Rendering/Op
 
 # target to preprocess a source file
 src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.i:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.i
 .PHONY : src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.i
 
 src/r_engine_core/Rendering/OpenGL/IndexBuffer.s: src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.s
@@ -381,15 +429,39 @@ src/r_engine_core/Rendering/OpenGL/IndexBuffer.s: src/r_engine_core/Rendering/Op
 
 # target to generate assembly for a file
 src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.s:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.s
 .PHONY : src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp.s
+
+src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.o: src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp.o
+.PHONY : src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.o
+
+# target to build an object file
+src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp.o:
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp.o
+.PHONY : src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp.o
+
+src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.i: src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp.i
+.PHONY : src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.i
+
+# target to preprocess a source file
+src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp.i:
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp.i
+.PHONY : src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp.i
+
+src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.s: src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp.s
+.PHONY : src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.s
+
+# target to generate assembly for a file
+src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp.s:
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp.s
+.PHONY : src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp.s
 
 src/r_engine_core/Rendering/OpenGL/ShaderProgram.o: src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.o
 .PHONY : src/r_engine_core/Rendering/OpenGL/ShaderProgram.o
 
 # target to build an object file
 src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.o:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.o
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.o
 .PHONY : src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.o
 
 src/r_engine_core/Rendering/OpenGL/ShaderProgram.i: src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.i
@@ -397,7 +469,7 @@ src/r_engine_core/Rendering/OpenGL/ShaderProgram.i: src/r_engine_core/Rendering/
 
 # target to preprocess a source file
 src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.i:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.i
 .PHONY : src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.i
 
 src/r_engine_core/Rendering/OpenGL/ShaderProgram.s: src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.s
@@ -405,15 +477,39 @@ src/r_engine_core/Rendering/OpenGL/ShaderProgram.s: src/r_engine_core/Rendering/
 
 # target to generate assembly for a file
 src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.s:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.s
 .PHONY : src/r_engine_core/Rendering/OpenGL/ShaderProgram.cpp.s
+
+src/r_engine_core/Rendering/OpenGL/Texture2D.o: src/r_engine_core/Rendering/OpenGL/Texture2D.cpp.o
+.PHONY : src/r_engine_core/Rendering/OpenGL/Texture2D.o
+
+# target to build an object file
+src/r_engine_core/Rendering/OpenGL/Texture2D.cpp.o:
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Texture2D.cpp.o
+.PHONY : src/r_engine_core/Rendering/OpenGL/Texture2D.cpp.o
+
+src/r_engine_core/Rendering/OpenGL/Texture2D.i: src/r_engine_core/Rendering/OpenGL/Texture2D.cpp.i
+.PHONY : src/r_engine_core/Rendering/OpenGL/Texture2D.i
+
+# target to preprocess a source file
+src/r_engine_core/Rendering/OpenGL/Texture2D.cpp.i:
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Texture2D.cpp.i
+.PHONY : src/r_engine_core/Rendering/OpenGL/Texture2D.cpp.i
+
+src/r_engine_core/Rendering/OpenGL/Texture2D.s: src/r_engine_core/Rendering/OpenGL/Texture2D.cpp.s
+.PHONY : src/r_engine_core/Rendering/OpenGL/Texture2D.s
+
+# target to generate assembly for a file
+src/r_engine_core/Rendering/OpenGL/Texture2D.cpp.s:
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/Texture2D.cpp.s
+.PHONY : src/r_engine_core/Rendering/OpenGL/Texture2D.cpp.s
 
 src/r_engine_core/Rendering/OpenGL/VertexArray.o: src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.o
 .PHONY : src/r_engine_core/Rendering/OpenGL/VertexArray.o
 
 # target to build an object file
 src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.o:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.o
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.o
 .PHONY : src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.o
 
 src/r_engine_core/Rendering/OpenGL/VertexArray.i: src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.i
@@ -421,7 +517,7 @@ src/r_engine_core/Rendering/OpenGL/VertexArray.i: src/r_engine_core/Rendering/Op
 
 # target to preprocess a source file
 src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.i:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.i
 .PHONY : src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.i
 
 src/r_engine_core/Rendering/OpenGL/VertexArray.s: src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.s
@@ -429,7 +525,7 @@ src/r_engine_core/Rendering/OpenGL/VertexArray.s: src/r_engine_core/Rendering/Op
 
 # target to generate assembly for a file
 src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.s:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.s
 .PHONY : src/r_engine_core/Rendering/OpenGL/VertexArray.cpp.s
 
 src/r_engine_core/Rendering/OpenGL/VertexBuffer.o: src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.o
@@ -437,7 +533,7 @@ src/r_engine_core/Rendering/OpenGL/VertexBuffer.o: src/r_engine_core/Rendering/O
 
 # target to build an object file
 src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.o:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.o
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.o
 .PHONY : src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.o
 
 src/r_engine_core/Rendering/OpenGL/VertexBuffer.i: src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.i
@@ -445,7 +541,7 @@ src/r_engine_core/Rendering/OpenGL/VertexBuffer.i: src/r_engine_core/Rendering/O
 
 # target to preprocess a source file
 src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.i:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.i
 .PHONY : src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.i
 
 src/r_engine_core/Rendering/OpenGL/VertexBuffer.s: src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.s
@@ -453,7 +549,7 @@ src/r_engine_core/Rendering/OpenGL/VertexBuffer.s: src/r_engine_core/Rendering/O
 
 # target to generate assembly for a file
 src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.s:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.s
 .PHONY : src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp.s
 
 src/r_engine_core/Window.o: src/r_engine_core/Window.cpp.o
@@ -461,7 +557,7 @@ src/r_engine_core/Window.o: src/r_engine_core/Window.cpp.o
 
 # target to build an object file
 src/r_engine_core/Window.cpp.o:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.o
 .PHONY : src/r_engine_core/Window.cpp.o
 
 src/r_engine_core/Window.i: src/r_engine_core/Window.cpp.i
@@ -469,7 +565,7 @@ src/r_engine_core/Window.i: src/r_engine_core/Window.cpp.i
 
 # target to preprocess a source file
 src/r_engine_core/Window.cpp.i:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.i
 .PHONY : src/r_engine_core/Window.cpp.i
 
 src/r_engine_core/Window.s: src/r_engine_core/Window.cpp.s
@@ -477,7 +573,7 @@ src/r_engine_core/Window.s: src/r_engine_core/Window.cpp.s
 
 # target to generate assembly for a file
 src/r_engine_core/Window.cpp.s:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/CMakeFiles/r_engine_core.dir/build.make r_engine_core/CMakeFiles/r_engine_core.dir/src/r_engine_core/Window.cpp.s
 .PHONY : src/r_engine_core/Window.cpp.s
 
 # Help Target
@@ -517,12 +613,24 @@ help:
 	@echo "... src/r_engine_core/Camera.o"
 	@echo "... src/r_engine_core/Camera.i"
 	@echo "... src/r_engine_core/Camera.s"
+	@echo "... src/r_engine_core/Input.o"
+	@echo "... src/r_engine_core/Input.i"
+	@echo "... src/r_engine_core/Input.s"
+	@echo "... src/r_engine_core/Modules/UIModule.o"
+	@echo "... src/r_engine_core/Modules/UIModule.i"
+	@echo "... src/r_engine_core/Modules/UIModule.s"
 	@echo "... src/r_engine_core/Rendering/OpenGL/IndexBuffer.o"
 	@echo "... src/r_engine_core/Rendering/OpenGL/IndexBuffer.i"
 	@echo "... src/r_engine_core/Rendering/OpenGL/IndexBuffer.s"
+	@echo "... src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.o"
+	@echo "... src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.i"
+	@echo "... src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.s"
 	@echo "... src/r_engine_core/Rendering/OpenGL/ShaderProgram.o"
 	@echo "... src/r_engine_core/Rendering/OpenGL/ShaderProgram.i"
 	@echo "... src/r_engine_core/Rendering/OpenGL/ShaderProgram.s"
+	@echo "... src/r_engine_core/Rendering/OpenGL/Texture2D.o"
+	@echo "... src/r_engine_core/Rendering/OpenGL/Texture2D.i"
+	@echo "... src/r_engine_core/Rendering/OpenGL/Texture2D.s"
 	@echo "... src/r_engine_core/Rendering/OpenGL/VertexArray.o"
 	@echo "... src/r_engine_core/Rendering/OpenGL/VertexArray.i"
 	@echo "... src/r_engine_core/Rendering/OpenGL/VertexArray.s"
@@ -543,6 +651,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/richstog/Documents/projects/r_engine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/richstog/Documents/projects/r_engine/external/spdlog
+# Install script for directory: /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

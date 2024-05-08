@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/richstog/Documents/projects/r_engine
+CMAKE_SOURCE_DIR = /home/richstog/Documents/projects/r_engine/OGL_engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/richstog/Documents/projects/r_engine/build
+CMAKE_BINARY_DIR = /home/richstog/Documents/projects/r_engine/OGL_engine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/richstog/Documents/projects/r_engine/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/richstog/Documents/projects/r_engine/build/CMakeFiles /home/richstog/Documents/projects/r_engine/build/r_engine_core/spdlog//CMakeFiles/progress.marks
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r_engine_core/spdlog/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/richstog/Documents/projects/r_engine/build/CMakeFiles 0
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/richstog/Documents/projects/r_engine/OGL_engine/build/CMakeFiles /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core/spdlog//CMakeFiles/progress.marks
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r_engine_core/spdlog/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/richstog/Documents/projects/r_engine/OGL_engine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r_engine_core/spdlog/clean
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r_engine_core/spdlog/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r_engine_core/spdlog/preinstall
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r_engine_core/spdlog/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r_engine_core/spdlog/preinstall
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r_engine_core/spdlog/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/richstog/Documents/projects/r_engine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 r_engine_core/spdlog/CMakeFiles/spdlog.dir/rule:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r_engine_core/spdlog/CMakeFiles/spdlog.dir/rule
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 r_engine_core/spdlog/CMakeFiles/spdlog.dir/rule
 .PHONY : r_engine_core/spdlog/CMakeFiles/spdlog.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ spdlog: r_engine_core/spdlog/CMakeFiles/spdlog.dir/rule
 
 # fast build rule for target.
 spdlog/fast:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/build
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/build
 .PHONY : spdlog/fast
 
 src/async.o: src/async.cpp.o
@@ -135,7 +135,7 @@ src/async.o: src/async.cpp.o
 
 # target to build an object file
 src/async.cpp.o:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.o
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.o
 .PHONY : src/async.cpp.o
 
 src/async.i: src/async.cpp.i
@@ -143,7 +143,7 @@ src/async.i: src/async.cpp.i
 
 # target to preprocess a source file
 src/async.cpp.i:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.i
 .PHONY : src/async.cpp.i
 
 src/async.s: src/async.cpp.s
@@ -151,7 +151,7 @@ src/async.s: src/async.cpp.s
 
 # target to generate assembly for a file
 src/async.cpp.s:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.s
 .PHONY : src/async.cpp.s
 
 src/bundled_fmtlib_format.o: src/bundled_fmtlib_format.cpp.o
@@ -159,7 +159,7 @@ src/bundled_fmtlib_format.o: src/bundled_fmtlib_format.cpp.o
 
 # target to build an object file
 src/bundled_fmtlib_format.cpp.o:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o
 .PHONY : src/bundled_fmtlib_format.cpp.o
 
 src/bundled_fmtlib_format.i: src/bundled_fmtlib_format.cpp.i
@@ -167,7 +167,7 @@ src/bundled_fmtlib_format.i: src/bundled_fmtlib_format.cpp.i
 
 # target to preprocess a source file
 src/bundled_fmtlib_format.cpp.i:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.i
 .PHONY : src/bundled_fmtlib_format.cpp.i
 
 src/bundled_fmtlib_format.s: src/bundled_fmtlib_format.cpp.s
@@ -175,7 +175,7 @@ src/bundled_fmtlib_format.s: src/bundled_fmtlib_format.cpp.s
 
 # target to generate assembly for a file
 src/bundled_fmtlib_format.cpp.s:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.s
 .PHONY : src/bundled_fmtlib_format.cpp.s
 
 src/cfg.o: src/cfg.cpp.o
@@ -183,7 +183,7 @@ src/cfg.o: src/cfg.cpp.o
 
 # target to build an object file
 src/cfg.cpp.o:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.o
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.o
 .PHONY : src/cfg.cpp.o
 
 src/cfg.i: src/cfg.cpp.i
@@ -191,7 +191,7 @@ src/cfg.i: src/cfg.cpp.i
 
 # target to preprocess a source file
 src/cfg.cpp.i:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.i
 .PHONY : src/cfg.cpp.i
 
 src/cfg.s: src/cfg.cpp.s
@@ -199,7 +199,7 @@ src/cfg.s: src/cfg.cpp.s
 
 # target to generate assembly for a file
 src/cfg.cpp.s:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.s
 .PHONY : src/cfg.cpp.s
 
 src/color_sinks.o: src/color_sinks.cpp.o
@@ -207,7 +207,7 @@ src/color_sinks.o: src/color_sinks.cpp.o
 
 # target to build an object file
 src/color_sinks.cpp.o:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o
 .PHONY : src/color_sinks.cpp.o
 
 src/color_sinks.i: src/color_sinks.cpp.i
@@ -215,7 +215,7 @@ src/color_sinks.i: src/color_sinks.cpp.i
 
 # target to preprocess a source file
 src/color_sinks.cpp.i:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.i
 .PHONY : src/color_sinks.cpp.i
 
 src/color_sinks.s: src/color_sinks.cpp.s
@@ -223,7 +223,7 @@ src/color_sinks.s: src/color_sinks.cpp.s
 
 # target to generate assembly for a file
 src/color_sinks.cpp.s:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.s
 .PHONY : src/color_sinks.cpp.s
 
 src/file_sinks.o: src/file_sinks.cpp.o
@@ -231,7 +231,7 @@ src/file_sinks.o: src/file_sinks.cpp.o
 
 # target to build an object file
 src/file_sinks.cpp.o:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o
 .PHONY : src/file_sinks.cpp.o
 
 src/file_sinks.i: src/file_sinks.cpp.i
@@ -239,7 +239,7 @@ src/file_sinks.i: src/file_sinks.cpp.i
 
 # target to preprocess a source file
 src/file_sinks.cpp.i:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.i
 .PHONY : src/file_sinks.cpp.i
 
 src/file_sinks.s: src/file_sinks.cpp.s
@@ -247,7 +247,7 @@ src/file_sinks.s: src/file_sinks.cpp.s
 
 # target to generate assembly for a file
 src/file_sinks.cpp.s:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.s
 .PHONY : src/file_sinks.cpp.s
 
 src/spdlog.o: src/spdlog.cpp.o
@@ -255,7 +255,7 @@ src/spdlog.o: src/spdlog.cpp.o
 
 # target to build an object file
 src/spdlog.cpp.o:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.o
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.o
 .PHONY : src/spdlog.cpp.o
 
 src/spdlog.i: src/spdlog.cpp.i
@@ -263,7 +263,7 @@ src/spdlog.i: src/spdlog.cpp.i
 
 # target to preprocess a source file
 src/spdlog.cpp.i:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.i
 .PHONY : src/spdlog.cpp.i
 
 src/spdlog.s: src/spdlog.cpp.s
@@ -271,7 +271,7 @@ src/spdlog.s: src/spdlog.cpp.s
 
 # target to generate assembly for a file
 src/spdlog.cpp.s:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.s
 .PHONY : src/spdlog.cpp.s
 
 src/stdout_sinks.o: src/stdout_sinks.cpp.o
@@ -279,7 +279,7 @@ src/stdout_sinks.o: src/stdout_sinks.cpp.o
 
 # target to build an object file
 src/stdout_sinks.cpp.o:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o
 .PHONY : src/stdout_sinks.cpp.o
 
 src/stdout_sinks.i: src/stdout_sinks.cpp.i
@@ -287,7 +287,7 @@ src/stdout_sinks.i: src/stdout_sinks.cpp.i
 
 # target to preprocess a source file
 src/stdout_sinks.cpp.i:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.i
 .PHONY : src/stdout_sinks.cpp.i
 
 src/stdout_sinks.s: src/stdout_sinks.cpp.s
@@ -295,7 +295,7 @@ src/stdout_sinks.s: src/stdout_sinks.cpp.s
 
 # target to generate assembly for a file
 src/stdout_sinks.cpp.s:
-	cd /home/richstog/Documents/projects/r_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(MAKE) $(MAKESILENT) -f r_engine_core/spdlog/CMakeFiles/spdlog.dir/build.make r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.s
 .PHONY : src/stdout_sinks.cpp.s
 
 # Help Target
@@ -339,6 +339,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/richstog/Documents/projects/r_engine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

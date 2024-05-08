@@ -1,4 +1,4 @@
-# Install script for directory: /home/richstog/Documents/projects/r_engine/r_engine_editor
+# Install script for directory: /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_editor
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

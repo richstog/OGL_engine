@@ -10,6 +10,8 @@ set(CORE_PUBLIC_INCLUDES
     includes/r_engine_core/Log.hpp
     includes/r_engine_core/Event.hpp
     includes/r_engine_core/Camera.hpp
+    includes/r_engine_core/Keys.hpp
+    includes/r_engine_core/Input.hpp
 )
 
 # PRIVATE INCLUDES
@@ -19,6 +21,9 @@ set(CORE_PRIVATE_INCLUDES
     src/r_engine_core/Rendering/OpenGL/VertexBuffer.hpp
     src/r_engine_core/Rendering/OpenGL/VertexArray.hpp
     src/r_engine_core/Rendering/OpenGL/IndexBuffer.hpp
+    src/r_engine_core/Rendering/OpenGL/Texture2D.hpp
+    src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.hpp
+    src/r_engine_core/Modules/UIModule.hpp
 )
 
 # PRIVATE SOURCES
@@ -30,6 +35,10 @@ set(CORE_PRIVATE_SOURCES
     src/r_engine_core/Rendering/OpenGL/VertexBuffer.cpp
     src/r_engine_core/Rendering/OpenGL/VertexArray.cpp
     src/r_engine_core/Rendering/OpenGL/IndexBuffer.cpp
+    src/r_engine_core/Rendering/OpenGL/Texture2D.cpp
+    src/r_engine_core/Rendering/OpenGL/Renderer_OpenGL.cpp
+    src/r_engine_core/Modules/UIModule.cpp
+    src/r_engine_core/Input.cpp
 )
 
 set(CORE_ALL_SOURCES
@@ -52,6 +61,9 @@ find_package(glfw3 REQUIRED)
 #target_link_libraries(${CORE_PROJECT_NAME} PRIVATE glfw OpenGL::GL)
 #target_link_libraries(${CORE_PROJECT_NAME} PRIVATE glfw GLEW::GLEW)
 target_link_libraries(${CORE_PROJECT_NAME} PRIVATE glfw)
+
+# add_subdirectory(../external/glfw ${CMAKE_CURRENT_BINARY_DIR}/glfw)
+# target_link_libraries(${CORE_PROJECT_NAME} PRIVATE glfw)
 
 # GLAD LINK
 add_subdirectory(../external/glad ${CMAKE_CURRENT_BINARY_DIR}/glad)

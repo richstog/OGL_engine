@@ -1,7 +1,7 @@
 r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o: \
- /home/richstog/Documents/projects/r_engine/external/spdlog/src/bundled_fmtlib_format.cpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/src/bundled_fmtlib_format.cpp \
  /usr/include/stdc-predef.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/fmt/bundled/format-inl.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/fmt/bundled/format-inl.h \
  /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -170,7 +170,7 @@ r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o: \
  /usr/include/libintl.h /usr/include/c++/13/bits/codecvt.h \
  /usr/include/c++/13/bits/locale_facets_nonio.tcc \
  /usr/include/c++/13/bits/locale_conv.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/fmt/bundled/format.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/fmt/bundled/format.h \
  /usr/include/c++/13/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
@@ -189,6 +189,6 @@ r_engine_core/spdlog/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.o: \
  /usr/include/c++/13/bits/atomic_base.h \
  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
  /usr/include/c++/13/backward/auto_ptr.h \
- /home/richstog/Documents/projects/r_engine/external/spdlog/include/spdlog/fmt/bundled/core.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include/spdlog/fmt/bundled/core.h \
  /usr/include/c++/13/cstddef /usr/include/c++/13/iterator \
  /usr/include/c++/13/bits/stream_iterator.h

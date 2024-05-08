@@ -1,4 +1,4 @@
-# Install script for directory: /home/richstog/Documents/projects/r_engine
+# Install script for directory: /home/richstog/Documents/projects/r_engine/OGL_engine
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/richstog/Documents/projects/r_engine/build/r_engine_core/cmake_install.cmake")
-  include("/home/richstog/Documents/projects/r_engine/build/r_engine_editor/cmake_install.cmake")
+  include("/home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core/cmake_install.cmake")
+  include("/home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_editor/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/richstog/Documents/projects/r_engine/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/richstog/Documents/projects/r_engine/OGL_engine/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

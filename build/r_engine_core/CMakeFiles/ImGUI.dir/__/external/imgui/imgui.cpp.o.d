@@ -1,8 +1,8 @@
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.o: \
- /home/richstog/Documents/projects/r_engine/external/imgui/imgui.cpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/imgui.cpp \
  /usr/include/stdc-predef.h \
- /home/richstog/Documents/projects/r_engine/external/imgui/imgui.h \
- /home/richstog/Documents/projects/r_engine/external/imgui/imconfig.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/imgui.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/imconfig.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h /usr/include/string.h \
@@ -17,7 +17,7 @@ r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/assert.h \
- /home/richstog/Documents/projects/r_engine/external/imgui/imgui_internal.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/imgui_internal.h \
  /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
  /usr/include/x86_64-linux-gnu/bits/time64.h \
@@ -203,7 +203,7 @@ r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/prfchwintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/keylockerintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxfp16intrin.h \
- /home/richstog/Documents/projects/r_engine/external/imgui/imstb_textedit.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/imstb_textedit.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h

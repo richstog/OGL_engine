@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = -DSPDLOG_COMPILED_LIB
 
-CXX_INCLUDES = -I/home/richstog/Documents/projects/r_engine/external/spdlog/include
+CXX_INCLUDES = -I/home/richstog/Documents/projects/r_engine/OGL_engine/external/spdlog/include
 
 CXX_FLAGS = -g -std=c++11
 

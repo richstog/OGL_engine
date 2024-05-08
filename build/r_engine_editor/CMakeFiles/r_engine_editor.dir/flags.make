@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/richstog/Documents/projects/r_engine/r_engine_core/includes
+CXX_INCLUDES = -I/home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/includes -I/home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/../external -I/home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/../external/imgui -I/home/richstog/Documents/projects/r_engine/OGL_engine/external/glm
 
 CXX_FLAGS = -g
 

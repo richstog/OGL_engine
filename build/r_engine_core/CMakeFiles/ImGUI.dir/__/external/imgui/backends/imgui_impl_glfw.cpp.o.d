@@ -1,8 +1,8 @@
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.o: \
- /home/richstog/Documents/projects/r_engine/external/imgui/backends/imgui_impl_glfw.cpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/backends/imgui_impl_glfw.cpp \
  /usr/include/stdc-predef.h \
- /home/richstog/Documents/projects/r_engine/r_engine_core/../external/imgui/imgui.h \
- /home/richstog/Documents/projects/r_engine/r_engine_core/../external/imgui/imconfig.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/../external/imgui/imgui.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core/../external/imgui/imconfig.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h /usr/include/string.h \
@@ -17,7 +17,7 @@ r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cp
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/include/assert.h \
- /home/richstog/Documents/projects/r_engine/external/imgui/backends/imgui_impl_glfw.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/backends/imgui_impl_glfw.h \
  /usr/include/GLFW/glfw3.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
@@ -27,4 +27,4 @@ r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cp
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/GL/gl.h \
  /usr/include/GL/glext.h \
- /home/richstog/Documents/projects/r_engine/external/glad/include/KHR/khrplatform.h
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/glad/include/KHR/khrplatform.h

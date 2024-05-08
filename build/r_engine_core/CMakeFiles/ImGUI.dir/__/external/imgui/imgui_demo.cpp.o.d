@@ -1,8 +1,8 @@
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.o: \
- /home/richstog/Documents/projects/r_engine/external/imgui/imgui_demo.cpp \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/imgui_demo.cpp \
  /usr/include/stdc-predef.h \
- /home/richstog/Documents/projects/r_engine/external/imgui/imgui.h \
- /home/richstog/Documents/projects/r_engine/external/imgui/imconfig.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/imgui.h \
+ /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/imconfig.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h /usr/include/string.h \

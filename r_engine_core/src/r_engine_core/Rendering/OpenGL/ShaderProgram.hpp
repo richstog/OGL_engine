@@ -20,7 +20,11 @@ namespace r_engine
         void bind() const;
         static void unbind();
         bool isComplited() const { return m_isCompiled; }
-        void setMatrix4(const char* name, const glm::mat4& matrix) const;
+        void setMatrix3(const char* name, const glm::mat3& value) const;
+        void setMatrix4(const char* name, const glm::mat4& value) const;
+        void setInt(const char* name, const int value) const;
+        void setFloat(const char* name, const float value) const;
+        void setVec3(const char* name, const glm::vec3& value) const;
 
         private:
         bool m_isCompiled = false;

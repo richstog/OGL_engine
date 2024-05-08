@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/richstog/Documents/projects/r_engine
+CMAKE_SOURCE_DIR = /home/richstog/Documents/projects/r_engine/OGL_engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/richstog/Documents/projects/r_engine/build
+CMAKE_BINARY_DIR = /home/richstog/Documents/projects/r_engine/OGL_engine/build
 
 # Include any dependencies generated for this target.
 include r_engine_core/CMakeFiles/ImGUI.dir/depend.make
@@ -70,102 +70,102 @@ include r_engine_core/CMakeFiles/ImGUI.dir/progress.make
 include r_engine_core/CMakeFiles/ImGUI.dir/flags.make
 
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.o: r_engine_core/CMakeFiles/ImGUI.dir/flags.make
-r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.o: /home/richstog/Documents/projects/r_engine/external/imgui/imgui.cpp
+r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.o: /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/imgui.cpp
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.o: r_engine_core/CMakeFiles/ImGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.o"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.o -MF CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.o.d -o CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.o -c /home/richstog/Documents/projects/r_engine/external/imgui/imgui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/OGL_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.o"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.o -MF CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.o.d -o CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.o -c /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/imgui.cpp
 
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.i"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/external/imgui/imgui.cpp > CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/imgui.cpp > CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.i
 
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.s"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/external/imgui/imgui.cpp -o CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/imgui.cpp -o CMakeFiles/ImGUI.dir/__/external/imgui/imgui.cpp.s
 
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.o: r_engine_core/CMakeFiles/ImGUI.dir/flags.make
-r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.o: /home/richstog/Documents/projects/r_engine/external/imgui/backends/imgui_impl_glfw.cpp
+r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.o: /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/backends/imgui_impl_glfw.cpp
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.o: r_engine_core/CMakeFiles/ImGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.o"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.o -MF CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.o.d -o CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.o -c /home/richstog/Documents/projects/r_engine/external/imgui/backends/imgui_impl_glfw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/OGL_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.o"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.o -MF CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.o.d -o CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.o -c /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/backends/imgui_impl_glfw.cpp
 
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.i"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/external/imgui/backends/imgui_impl_glfw.cpp > CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/backends/imgui_impl_glfw.cpp > CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.i
 
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.s"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/external/imgui/backends/imgui_impl_glfw.cpp -o CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/backends/imgui_impl_glfw.cpp -o CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_glfw.cpp.s
 
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.o: r_engine_core/CMakeFiles/ImGUI.dir/flags.make
-r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.o: /home/richstog/Documents/projects/r_engine/external/imgui/backends/imgui_impl_opengl3.cpp
+r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.o: /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/backends/imgui_impl_opengl3.cpp
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.o: r_engine_core/CMakeFiles/ImGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.o"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.o -MF CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.o -c /home/richstog/Documents/projects/r_engine/external/imgui/backends/imgui_impl_opengl3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/OGL_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.o"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.o -MF CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.o -c /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/backends/imgui_impl_opengl3.cpp
 
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.i"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/external/imgui/backends/imgui_impl_opengl3.cpp > CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/backends/imgui_impl_opengl3.cpp > CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.i
 
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.s"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/external/imgui/backends/imgui_impl_opengl3.cpp -o CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/backends/imgui_impl_opengl3.cpp -o CMakeFiles/ImGUI.dir/__/external/imgui/backends/imgui_impl_opengl3.cpp.s
 
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.o: r_engine_core/CMakeFiles/ImGUI.dir/flags.make
-r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.o: /home/richstog/Documents/projects/r_engine/external/imgui/imgui_demo.cpp
+r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.o: /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/imgui_demo.cpp
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.o: r_engine_core/CMakeFiles/ImGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.o"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.o -MF CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.o.d -o CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.o -c /home/richstog/Documents/projects/r_engine/external/imgui/imgui_demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/OGL_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.o"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.o -MF CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.o.d -o CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.o -c /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/imgui_demo.cpp
 
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.i"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/external/imgui/imgui_demo.cpp > CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/imgui_demo.cpp > CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.i
 
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.s"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/external/imgui/imgui_demo.cpp -o CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/imgui_demo.cpp -o CMakeFiles/ImGUI.dir/__/external/imgui/imgui_demo.cpp.s
 
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.o: r_engine_core/CMakeFiles/ImGUI.dir/flags.make
-r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.o: /home/richstog/Documents/projects/r_engine/external/imgui/imgui_draw.cpp
+r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.o: /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/imgui_draw.cpp
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.o: r_engine_core/CMakeFiles/ImGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.o"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.o -MF CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.o.d -o CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.o -c /home/richstog/Documents/projects/r_engine/external/imgui/imgui_draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/OGL_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.o"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.o -MF CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.o.d -o CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.o -c /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/imgui_draw.cpp
 
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.i"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/external/imgui/imgui_draw.cpp > CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/imgui_draw.cpp > CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.i
 
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.s"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/external/imgui/imgui_draw.cpp -o CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/imgui_draw.cpp -o CMakeFiles/ImGUI.dir/__/external/imgui/imgui_draw.cpp.s
 
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.o: r_engine_core/CMakeFiles/ImGUI.dir/flags.make
-r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.o: /home/richstog/Documents/projects/r_engine/external/imgui/imgui_tables.cpp
+r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.o: /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/imgui_tables.cpp
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.o: r_engine_core/CMakeFiles/ImGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.o"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.o -MF CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.o.d -o CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.o -c /home/richstog/Documents/projects/r_engine/external/imgui/imgui_tables.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/OGL_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.o"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.o -MF CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.o.d -o CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.o -c /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/imgui_tables.cpp
 
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.i"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/external/imgui/imgui_tables.cpp > CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/imgui_tables.cpp > CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.i
 
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.s"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/external/imgui/imgui_tables.cpp -o CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/imgui_tables.cpp -o CMakeFiles/ImGUI.dir/__/external/imgui/imgui_tables.cpp.s
 
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.o: r_engine_core/CMakeFiles/ImGUI.dir/flags.make
-r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.o: /home/richstog/Documents/projects/r_engine/external/imgui/imgui_widgets.cpp
+r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.o: /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/imgui_widgets.cpp
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.o: r_engine_core/CMakeFiles/ImGUI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.o"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.o -MF CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.o -c /home/richstog/Documents/projects/r_engine/external/imgui/imgui_widgets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/richstog/Documents/projects/r_engine/OGL_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.o"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.o -MF CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.o -c /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/imgui_widgets.cpp
 
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.i"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/external/imgui/imgui_widgets.cpp > CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.i
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/imgui_widgets.cpp > CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.i
 
 r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.s"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/external/imgui/imgui_widgets.cpp -o CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.s
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/richstog/Documents/projects/r_engine/OGL_engine/external/imgui/imgui_widgets.cpp -o CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.s
 
 # Object files for target ImGUI
 ImGUI_OBJECTS = \
@@ -189,19 +189,19 @@ r_engine_core/libImGUI.a: r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/i
 r_engine_core/libImGUI.a: r_engine_core/CMakeFiles/ImGUI.dir/__/external/imgui/imgui_widgets.cpp.o
 r_engine_core/libImGUI.a: r_engine_core/CMakeFiles/ImGUI.dir/build.make
 r_engine_core/libImGUI.a: r_engine_core/CMakeFiles/ImGUI.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/richstog/Documents/projects/r_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libImGUI.a"
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && $(CMAKE_COMMAND) -P CMakeFiles/ImGUI.dir/cmake_clean_target.cmake
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ImGUI.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/richstog/Documents/projects/r_engine/OGL_engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libImGUI.a"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && $(CMAKE_COMMAND) -P CMakeFiles/ImGUI.dir/cmake_clean_target.cmake
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ImGUI.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 r_engine_core/CMakeFiles/ImGUI.dir/build: r_engine_core/libImGUI.a
 .PHONY : r_engine_core/CMakeFiles/ImGUI.dir/build
 
 r_engine_core/CMakeFiles/ImGUI.dir/clean:
-	cd /home/richstog/Documents/projects/r_engine/build/r_engine_core && $(CMAKE_COMMAND) -P CMakeFiles/ImGUI.dir/cmake_clean.cmake
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core && $(CMAKE_COMMAND) -P CMakeFiles/ImGUI.dir/cmake_clean.cmake
 .PHONY : r_engine_core/CMakeFiles/ImGUI.dir/clean
 
 r_engine_core/CMakeFiles/ImGUI.dir/depend:
-	cd /home/richstog/Documents/projects/r_engine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/richstog/Documents/projects/r_engine /home/richstog/Documents/projects/r_engine/r_engine_core /home/richstog/Documents/projects/r_engine/build /home/richstog/Documents/projects/r_engine/build/r_engine_core /home/richstog/Documents/projects/r_engine/build/r_engine_core/CMakeFiles/ImGUI.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/richstog/Documents/projects/r_engine/OGL_engine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/richstog/Documents/projects/r_engine/OGL_engine /home/richstog/Documents/projects/r_engine/OGL_engine/r_engine_core /home/richstog/Documents/projects/r_engine/OGL_engine/build /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core /home/richstog/Documents/projects/r_engine/OGL_engine/build/r_engine_core/CMakeFiles/ImGUI.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : r_engine_core/CMakeFiles/ImGUI.dir/depend
 
