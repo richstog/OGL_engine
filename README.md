@@ -40,7 +40,7 @@
 Проект реализован на операционной системе Ubuntu версии 23.10. Она по умолчанию устанавливает необходимые графические драйвера для вашего устройства.
 
 Для установки проекта необходимо выполнить следующие пункты:
-+ Установить библиотеку GLFW ```sudo apt install libglfw3 libglfw3-dev```;
++ Установить необходимые программы ```sudo apt install cmake gcc unzip make libglfw3 libglfw3-dev git```;
 + Склонировать данный репозиторий с рекурсией на сабмодули ```git clone https://github.com/richstog/OGL_engine.git --recursive```;
 + Перейти в папку проекта ```cd OGL_engine```;
 + Создать и открыть папку build ```mkdir build && cd build```;
